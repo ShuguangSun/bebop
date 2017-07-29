@@ -1,0 +1,1992 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{none/global/}
+  \entry{Braun2002}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BTM}{%
+         family={Braun},
+         familyi={B\bibinitperiod},
+         given={Thomas\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Bayesian inference,Bone marrow transplant,CRM,Clinical
+  trial,Correlated binary data,DoseFinding,EfficacyToxicity}
+    \strng{namehash}{BTM1}
+    \strng{fullhash}{BTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Traditional phase I studies find the therapeutic dose of an investigational
+  drug based solely on toxicity and without regard to the drug's efficacy. We
+  propose extending the continual reassessment method (CRM) to a bivariate
+  trial design in which the maximum tolerated dose is based jointly on both
+  toxicity and disease progression. We call our study design bCRM, for
+  bivariate CRM, which we apply to a study of bone marrow patients seeking to
+  find the optimal time after bone marrow transplant at which to taper immune
+  suppression and eventually begin donor leukocyte infusions. We demonstrate
+  through simulation that bCRM has excellent operating characteristics and
+  compare the performance of bCRM in a bone marrow transplantation study to
+  designs proposed by previous investigators. We also attempt to provide some
+  direction to future investigators with regard to plausible models and
+  distributions to use with a bivariate study design. {\textcopyright} 2002
+  Elsevier Science Inc. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0197-2456(01)00205-7
+    \endverb
+    \field{isbn}{0197-2456 (Print)$\backslash$r0197-2456 (Linking)}
+    \field{issn}{01972456}
+    \field{number}{3}
+    \field{pages}{240\bibrangedash 256}
+    \field{title}{{The bivariate continual reassessment method: Extending the
+  CRM to phase I trials of two competing outcomes}}
+    \field{volume}{23}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Braun - 2002 - The bivariate continual reassessment me
+    \verb thod Extending the CRM to phase I trials of two competing outcomes.pd
+    \verb f:pdf
+    \endverb
+    \field{journaltitle}{Controlled Clinical Trials}
+    \field{year}{2002}
+  \endentry
+
+  \entry{OQuigley1990}{article}{}
+    \name{author}{3}{}{%
+      {{hash=OJ}{%
+         family={O'Quigley},
+         familyi={O\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=PM}{%
+         family={Pepe},
+         familyi={P\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=FL}{%
+         family={Fisher},
+         familyi={F\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+    }
+    \keyw{CRM,DoseFinding}
+    \strng{namehash}{OJPMFL1}
+    \strng{fullhash}{OJPMFL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This paper looks at a new approach to the design and analysis of Phase 1
+  clinical trials in cancer. The basic idea and motivation behind the approach
+  stem from an attempt to reconcile the needs of dose-finding experimentation
+  with the ethical demands of established medical practice. It is argued that
+  for these trials the particular shape of the dose toxicity curve is of little
+  interest. Attention focuses rather on identifying a dose with a given
+  targeted toxicity level and on concentrating experimentation at that which
+  all current available evidence indicates to be the best estimate of this
+  level. Such an approach not only makes an explicit attempt to meet ethical
+  requirements but also enables the use of models whose only requirements are
+  that locally (i.e., around the dose corresponding to the targeted toxicity
+  level) they reasonably well approximate the true probability of toxic
+  response. Although a large number of models could be contemplated, we look at
+  a particularly simple one. Extensive simulations show the model to have real
+  promise.%
+    }
+    \verb{doi}
+    \verb 10.2307/2531628
+    \endverb
+    \field{isbn}{0006-341X}
+    \field{issn}{0006-341X}
+    \field{number}{1}
+    \field{pages}{33\bibrangedash 48}
+    \field{title}{{Continual reassessment method: a practical design for phase
+  1 clinical trials in cancer.}}
+    \field{volume}{46}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/O'Quigley, Pepe, Fisher - 1990 - Continual reassessmen
+    \verb t method a practical design for phase 1 clinical trials in cancer.pdf
+    \verb :pdf
+    \endverb
+    \field{journaltitle}{Biometrics}
+    \field{year}{1990}
+  \endentry
+
+  \entry{Ivanova2003}{article}{}
+    \name{author}{1}{}{%
+      {{hash=IA}{%
+         family={Ivanova},
+         familyi={I\bibinitperiod},
+         given={Anastasia},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Dose-finding studies,Optimal dose,Phase I trial,Random
+  walk,Up-and-down design}
+    \strng{namehash}{IA1}
+    \strng{fullhash}{IA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    For some drugs, toxicity events lead to early termination of treatment
+  before a therapeutic response is observed. That is, there are three possible
+  outcomes: toxicity (therapeutic response unknown), therapeutic response
+  without toxicity, and no response with no toxicity. The optimal dose is the
+  dose that maximizes the probability of the joint event, response, and no
+  toxicity. The optimal safe dose is the dose, from among the doses with
+  toxicity rate less than the maximum tolerable level, that maximizes the
+  probability of response and no toxicity. We present a new sequential design
+  to maximize the number of subjects assigned in the neighborhood of the
+  optimal safe dose in a dose-finding trial with two outcomes.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.0006-341X.2003.00115.x
+    \endverb
+    \field{issn}{0006341X}
+    \field{number}{4}
+    \field{pages}{1001\bibrangedash 1007}
+    \field{title}{{A New Dose-Finding Design for Bivariate Outcomes}}
+    \field{volume}{59}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Ivanova - 2003 - A New Dose-Finding Design for Bivaria
+    \verb te Outcomes.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biometrics}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Zhang2006}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ZW}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SDJ}{%
+         family={Sargent},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mandrekar},
+         familyi={M\bibinitperiod},
+         given={Sumithra},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Bayesian method,CRM,Continual reassessment method,Continuation-ratio
+  model,DoseFinding,EfficacyToxicity,Phase I trail,Proportional odds
+  model,Trinomial}
+    \strng{namehash}{ZWSDJMS1}
+    \strng{fullhash}{ZWSDJMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Novel therapies are challenging the standards of drug development. Agents
+  with specific biologic targets and limited toxicity require novel designs to
+  determine doses to be taken forward into larger studies. In this paper, we
+  describe an approach that incorporates both toxicity and efficacy data into
+  the estimation of the biologically optimal dose of an agent in a phase I
+  trial. The approach is based on the flexible continuation-ratio model, and
+  uses straightforward optimal dose selection criteria. Dose selection is based
+  on all patients treated up until that time point, using a continual
+  reassessment method approach. Dose-outcome curves considered include
+  monotonically increasing, monotonically decreasing, and unimodal curves. Our
+  simulation studies demonstrate that the proposed design, which we call
+  TriCRM, has favourable operating characteristics.%
+    }
+    \verb{doi}
+    \verb 10.1002/sim.2325
+    \endverb
+    \field{issn}{02776715}
+    \field{number}{14}
+    \field{pages}{2365\bibrangedash 2383}
+    \field{title}{{An adaptive dose-finding design incorporating both toxicity
+  and efficacy}}
+    \field{volume}{25}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Zhang, Sargent, Mandrekar - 2006 - An adaptive dose-fi
+    \verb nding design incorporating both toxicity and efficacy.pdf:pdf
+    \endverb
+    \field{journaltitle}{Statistics in Medicine}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Mandrekar2010}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MSJ}{%
+         family={Mandrekar},
+         familyi={M\bibinitperiod},
+         given={Sumithra\bibnamedelima J.},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=QR}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Rui},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SDJ}{%
+         family={Sargent},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{Continual reassessment
+  method,Dose-finding,DoseFinding,Efficacy,EfficacyToxicity,Model-based
+  designs,Toxicity,Trinary outcome}
+    \strng{namehash}{MSJQRSDJ1}
+    \strng{fullhash}{MSJQRSDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Novel therapies are challenging the standards of drug development. Agents
+  with specific biologic targets, unknown dose-efficacy curves, and limited
+  toxicity mandate novel designs to identify biologically optimal doses. We
+  review two model-based designs that utilize either a proportional odds model
+  or a continuation ratio model to identify an optimal dose of a single or
+  two-agent combination in a Phase I setting utilizing both toxicity and
+  efficacy data. A continual reassessment method with straightforward dose
+  selection criterion using accumulated data from all patients treated until
+  that time point is employed while allowing for separate toxicity and efficacy
+  curves for each drug in a two-drug setting. The simulation studies
+  demonstrate considerable promise, at least theoretically, in the ability of
+  such model-based designs to identify the optimal dose. Despite such favorable
+  operating characteristics, there are several pragmatic challenges that hinder
+  the routine implementation of such model-based designs in practice. We review
+  and offer practical solutions to potentially overcome some of these
+  challenges. The acceptance and integration of these designs in practice may
+  be quicker and easier if they are developed in concert with a clinical
+  paradigm.%
+    }
+    \verb{doi}
+    \verb 10.1002/sim.3706
+    \endverb
+    \field{isbn}{1097-0258 (Electronic)$\backslash$n0277-6715 (Linking)}
+    \field{issn}{02776715}
+    \field{number}{10}
+    \field{pages}{1077\bibrangedash 1083}
+    \field{title}{{Model-based phase I designs incorporating toxicity and
+  efficacy for single and dual agent drug combinations: Methods and
+  challenges}}
+    \field{volume}{29}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Mandrekar, Qin, Sargent - 2010 - Model-based phase I d
+    \verb esigns incorporating toxicity and efficacy for single and dual agent
+    \verb drug combinat.pdf:pdf
+    \endverb
+    \field{journaltitle}{Statistics in Medicine}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Wang2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WM}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Meihua},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Day},
+         familyi={D\bibinitperiod},
+         given={Roger},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{DoseFinding,EfficacyToxicity}
+    \strng{namehash}{WMDR1}
+    \strng{fullhash}{WMDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We present a new adaptive Bayesian method for dose-finding in phase I
+  clinical trials based on both response and toxicity. Although clinical
+  responses are usually rare in phase I cancer trials, molecularly targeted
+  therapy may make clinical responses more likely. In addition, biological
+  responses may be common. Thus responses may be frequent enough to help decide
+  how aggressive a phase I escalation should be. The model assumes that
+  response and toxicity events happen depending on respective dose thresholds
+  for the individual, assuming that the thresholds jointly follow a bivariate
+  log-normal distribution or a mixture. The design utilizes prior information
+  about the population threshold distribution as well as accumulated data. The
+  next dose is assigned to maximize a patient-oriented expected utility
+  integrated over the current posterior distribution. The design is evaluated
+  through simulation with population parameters equaling estimates from early
+  Gleevec trials. This exercise provides evidence for the value of the use of
+  the proposed design for future clinical trials.%
+    }
+    \verb{doi}
+    \verb 10.1080/10543400903280613
+    \endverb
+    \field{isbn}{1520-5711 (Electronic)$\backslash$r1054-3406 (Linking)}
+    \field{issn}{1054-3406}
+    \field{number}{1}
+    \field{pages}{125\bibrangedash 144}
+    \field{title}{{Adaptive Bayesian design for phase I dose-finding trials
+  using a joint model of response and toxicity.}}
+    \field{volume}{20}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Wang, Day - 2010 - Adaptive Bayesian design for phase
+    \verb I dose-finding trials using a joint model of response and toxicity.pd
+    \verb f:pdf
+    \endverb
+    \field{journaltitle}{Journal of biopharmaceutical statistics}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Thall2004}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TP}{%
+         family={Thall},
+         familyi={T\bibinitperiod},
+         given={PF},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cook},
+         familyi={C\bibinitperiod},
+         given={JD},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{DoseFinding,EfficacyToxicity,adaptive design,bayesian design,biologic
+  agents,dose-finding,phase i clinical trial,phase ii}
+    \strng{namehash}{TPCJ1}
+    \strng{fullhash}{TPCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{684\bibrangedash 693}
+    \field{title}{{Dose-Finding Based on Efficacy-Toxicity Trade-Offs}}
+    \field{volume}{60}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Thall, Cook - 2004 - Dose-Finding Based on Efficacy-To
+    \verb xicity Trade-Offs.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biometrics}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Cook2006}{report}{}
+    \name{author}{1}{}{%
+      {{hash=CJD}{%
+         family={Cook},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima D},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \keyw{DoseFinding,EfficacyToxicity}
+    \strng{namehash}{CJD1}
+    \strng{fullhash}{CJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{{Efficacy-Toxicity trade-offs based on L-p norms: Technical
+  Report UTMDABTR-003-06}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Cook - 2006 - Efficacy-Toxicity trade-offs based on L-
+    \verb p norms Technical Report UTMDABTR-003-06.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Thall2006}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TP}{%
+         family={Thall},
+         familyi={T\bibinitperiod},
+         given={PF},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cook},
+         familyi={C\bibinitperiod},
+         given={JD},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=EE}{%
+         family={Estey},
+         familyi={E\bibinitperiod},
+         given={EH},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{DoseFinding,EfficacyToxicity}
+    \strng{namehash}{TPCJEE1}
+    \strng{fullhash}{TPCJEE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The purpose of this paper is to describe and illustrate an outcome-adaptive
+  Bayesian procedure, proposed by Thall and Cook (2004), for assigning doses of
+  an experimental treatment to successive cohorts of patients. The method uses
+  elicited (efficacy, toxicity) probability pairs to construct a family of
+  trade-off contours that are used to quantify the desirability of each dose.
+  This provides a basis for determining a best dose for each cohort. The method
+  combines the goals of conventional Phase I and Phase II trials, and thus may
+  be called a "Phase I-II" design. We first give a general review of the
+  probability model and dose-finding algorithm. We next describe an application
+  to a trial of a biologic agent for treatment of acute myelogenous leukemia,
+  including a computer simulation study to assess the design's average
+  behavior. To illustrate how the method may work in practice, we present a
+  cohort-by-cohort example of a particular trial. We close with a discussion of
+  some practical issues that may arise during implementation.%
+    }
+    \verb{doi}
+    \verb 10.1080/10543400600860394
+    \endverb
+    \field{issn}{1054-3406}
+    \field{number}{5}
+    \field{pages}{623\bibrangedash 638}
+    \field{title}{{Adaptive dose selection using efficacy-toxicity trade-offs:
+  illustrations and practical considerations.}}
+    \field{volume}{16}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Thall, Cook, Estey - 2006 - Adaptive dose selection us
+    \verb ing efficacy-toxicity trade-offs illustrations and practical consider
+    \verb ations.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of biopharmaceutical statistics}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Ghebretinsae2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=GAH}{%
+         family={Ghebretinsae},
+         familyi={G\bibinitperiod},
+         given={Aklilu\bibnamedelima Habteab},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Faes},
+         familyi={F\bibinitperiod},
+         given={Christel},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Molenberghs},
+         familyi={M\bibinitperiod},
+         given={Geert},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Geys},
+         familyi={G\bibinitperiod},
+         given={Helena},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=VBJ}{%
+         family={{Van Der Leede}},
+         familyi={V\bibinitperiod},
+         given={Bas\bibnamedelima Jan},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{EfficacyToxicityPhaseII,comet assay,gamma random effect,hierarchical
+  model,joint model,normal random effect}
+    \strng{namehash}{GAH+1}
+    \strng{fullhash}{GAHFCMGGHVBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Multivariate longitudinal or clustered data are commonly encountered in
+  clinical trials and toxicological studies. Typically, there is no single
+  standard endpoint to assess the toxicity or efficacy of the compound of
+  interest, but co-primary endpoints are available to assess the toxic effects
+  or the working of the compound. Modeling the responses jointly is thus
+  appealing to draw overall inferences using all responses and to capture the
+  association among the responses. Non-Gaussian outcomes are often modeled
+  univariately using exponential family models. To accommodate both the
+  overdispersion and hierarchical structure in the data, Molenberghs et al. A
+  family of generalized linear models for repeated measures with normal and
+  conjugate random effects. Statistical Science 2010; 25:325-347 proposed using
+  two separate sets of random effects. This papers considers a model for
+  multivariate data with hierarchically clustered and overdispersed
+  non-Gaussian data. Gamma random effect for the over-dispersion and normal
+  random effects for the clustering in the data are being used. The two
+  outcomes are jointly analyzed by assuming that the normal random effects for
+  both endpoints are correlated. The association structure between the response
+  is analytically derived. The fit of the joint model to data from a so-called
+  comet assay are compared with the univariate analysis of the two outcomes.
+  Copyright {\textcopyright} 2012 John Wiley {\&} Sons, Ltd.%
+    }
+    \verb{doi}
+    \verb 10.1002/pst.1533
+    \endverb
+    \field{issn}{15391604}
+    \field{number}{6}
+    \field{pages}{449\bibrangedash 455}
+    \field{title}{{Joint modeling of hierarchically clustered and overdispersed
+  non-gaussian continuous outcomes for comet assay data}}
+    \field{volume}{11}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Ghebretinsae et al. - 2012 - Joint modeling of hierarc
+    \verb hically clustered and overdispersed non-gaussian continuous outcomes
+    \verb for comet ass.pdf:pdf
+    \endverb
+    \field{journaltitle}{Pharmaceutical Statistics}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Cook1994}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CRJ}{%
+         family={Cook},
+         familyi={C\bibinitperiod},
+         given={R\bibnamedelima J},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=FVT}{%
+         family={Farewell},
+         familyi={F\bibinitperiod},
+         given={V\bibnamedelima T},
+         giveni={V\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \keyw{EfficacyToxicityPhaseII}
+    \strng{namehash}{CRJFVT1}
+    \strng{fullhash}{CRJFVT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    There is currently a need for clinical trial methodology that allows formal
+  consideration of toxicity responses. Since a complete evaluation of an
+  experimental therapy addresses both relative efficacy and relative toxicity,
+  general methods for handling bivariate response data are of interest. A
+  procedure for sequentially analysing both efficacy and toxicity data is
+  presented. The procedure is designed to allow early termination due to
+  efficacy results, toxicity results, or both. The method is based on modified
+  marginal sequential analyses, accounting for bivariate correlated responses
+  and multiple analyses over time. The theory is presented in the context of
+  normally distributed responses. Extensions to bivariate failure time data are
+  indicated and an example from a kidney transplant study demonstrates the
+  procedure.%
+    }
+    \verb{doi}
+    \verb 10.2307/2533451
+    \endverb
+    \field{issn}{0006-341X}
+    \field{number}{4}
+    \field{pages}{1146\bibrangedash 1152}
+    \field{title}{{Guidelines for monitoring efficacy and toxicity responses in
+  clinical trials.}}
+    \field{volume}{50}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Cook, Farewell - 1994 - Guidelines for monitoring effi
+    \verb cacy and toxicity responses in clinical trials.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biometrics}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Jin2007}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JH}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={Hua},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{EfficacyToxicityPhaseII,Phase II clinical trial,Robust,Two-stage
+  design,Type I error}
+    \strng{namehash}{JH1}
+    \strng{fullhash}{JH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Phase II clinical trials in oncology are used to initially evaluate the
+  therapeutic efficacy of a new treatment regimen. Simon's two-stage design is
+  commonly used for such trials. However, he only focused on the "response
+  rate", the proportion of patients experiencing tumor regression. In clinical
+  practice, it is preferred of a sequential design to monitor antitumor
+  activity as well as toxicity. Conaway and Petroni proposed a method for
+  designing phase II trials on the basis of both treatment efficacy and safety,
+  which imply an equal weighing of response and toxicity. In this paper, we
+  developed an alternative test to cope with the trade-off between safety and
+  efficacy. The main idea is to control for the marginal type I errors of
+  response rate and toxicity rate separately. We provide guides on searching
+  the stopping and rejecting regions and determination of sample size. The
+  proposed method has advantage over other designs, including those of Conaway
+  and Petroni's and Bryant and Day's, that it can definitely control one type I
+  error of the interests such as treatment antitumor activity or safety and is
+  robust against the real association parameter. Furthermore, it is conceptive
+  intuitive, very simple to implement, and also feasible for the requirement of
+  small sample size in a phase II trial. ?? 2007 Elsevier Inc. All rights
+  reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cct.2007.03.003
+    \endverb
+    \field{issn}{15517144}
+    \field{number}{4}
+    \field{pages}{525\bibrangedash 531}
+    \field{title}{{Alternative designs of phase II trials considering response
+  and toxicity}}
+    \field{volume}{28}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Jin - 2007 - Alternative designs of phase II trials co
+    \verb nsidering response and toxicity.pdf:pdf
+    \endverb
+    \field{journaltitle}{Contemporary Clinical Trials}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Brutti2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BP}{%
+         family={Brutti},
+         familyi={B\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gubbiotti},
+         familyi={G\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Sambucini},
+         familyi={S\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \keyw{Bayesian design,Binary outcomes,EfficacyToxicityPhaseII,Multiple
+  endpoints,Phase II clinical trials,Two-stage design}
+    \strng{namehash}{BPGSSV1}
+    \strng{fullhash}{BPGSSV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Tan and Machin (biStat. Med. 2002; 21:1991-2012) introduce a Bayesian
+  two-stage design for phase II clinical trials where the binary endpoint of
+  interest is treatment efficacy. In this paper we propose an extension of
+  their design to incorporate safety considerations. At each stage we define
+  the treatment successful and deserving of further study if the total number
+  of adverse events is sufficiently small and the number of responders who
+  simultaneously do not experience any toxicity is sufficiently large.
+  Therefore, our criterion is based on the joint posterior probability that the
+  true overall toxicity rate and the true efficacy-and-safety rate are,
+  respectively, smaller and larger than conveniently pre-specified target
+  values. The optimal two-stage sample sizes are determined specifying a
+  minimum threshold for the above-mentioned posterior probability, computed
+  under the assumption that favorable outcomes have occurred. Besides
+  describing the proposed design, we suggest how to construct informative prior
+  scenarios and we also apply the reference algorithm to derive a
+  non-informative prior distribution. Finally, some numerical results are
+  provided and a real data application is illustrated.%
+    }
+    \verb{doi}
+    \verb 10.1002/sim.4229
+    \endverb
+    \field{isbn}{1097-0258}
+    \field{issn}{02776715}
+    \field{number}{14}
+    \field{pages}{1648\bibrangedash 1664}
+    \field{title}{{An extension of the single threshold design for monitoring
+  efficacy and safety in phase II clinical trials}}
+    \field{volume}{30}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Brutti, Gubbiotti, Sambucini - 2011 - An extension of
+    \verb the single threshold design for monitoring efficacy and safety in pha
+    \verb se II clinica.pdf:pdf
+    \endverb
+    \field{journaltitle}{Statistics in Medicine}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Bouckaert2001}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BA}{%
+         family={Bouckaert},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mouchart},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{EfficacyToxicityPhaseII}
+    \strng{namehash}{BAMM1}
+    \strng{fullhash}{BAMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We consider the outcomes of a clinical trial as determined by one, or
+  several, possibly hidden causes. This paper proposes a statistical model that
+  allows such a distinction of causes not only for the main, or therapeutic,
+  effects but also for the side, or toxic, effects. More specifically, we focus
+  on trials where the effects are naturally dichotomized, that is, where the
+  health of a patient has improved or not, and where a specific adverse effect
+  has occurred or not. A case study provides an example of the way this model
+  can help to solve some problems of suspected drug toxicity. Finally, the
+  model is shown to be a part of a hierarchy of models and the way to select a
+  best model is investigated.%
+    }
+    \verb{doi}
+    \verb 10.1002/sim.659
+    \endverb
+    \field{issn}{02776715}
+    \field{number}{4}
+    \field{pages}{521\bibrangedash 543}
+    \field{title}{{Sure outcomes of random events: A model for clinical
+  trials}}
+    \field{volume}{20}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Bouckaert, Mouchart - 2001 - Sure outcomes of random e
+    \verb vents A model for clinical trials.pdf:pdf
+    \endverb
+    \field{journaltitle}{Statistics in Medicine}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Conaway1995}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CMR}{%
+         family={Conaway},
+         familyi={C\bibinitperiod},
+         given={M\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PGR}{%
+         family={Petroni},
+         familyi={P\bibinitperiod},
+         given={G\bibnamedelima R},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{EfficacyToxicityPhaseII}
+    \strng{namehash}{CMRPGR1}
+    \strng{fullhash}{CMRPGR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this paper we propose methods for designing group sequential phase II
+  trials with two dependent binary endpoints. The emphasis is on the derivation
+  of stopping rules for phase II trials which require the enrollment of a small
+  number of patients. The methods are based on enumerating the exact
+  distribution for the binary endpoints. We illustrate the methods with a
+  recent study which required the use of group sequential design to monitor
+  antitumor activity and toxicity.%
+    }
+    \verb{doi}
+    \verb 10.2307/2532952
+    \endverb
+    \field{issn}{0006341X}
+    \field{number}{2}
+    \field{pages}{656\bibrangedash 664}
+    \field{title}{{Bivariate sequential designs for phase II trials.}}
+    \field{volume}{51}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Conaway, Petroni - 1995 - Bivariate sequential designs
+    \verb  for phase II trials.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biometrics}
+    \field{year}{1995}
+  \endentry
+
+  \entry{Conaway1996}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CMR}{%
+         family={Conaway},
+         familyi={C\bibinitperiod},
+         given={M\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PGR}{%
+         family={Petroni},
+         familyi={P\bibinitperiod},
+         given={G\bibnamedelima R},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{EfficacyToxicityPhaseII}
+    \strng{namehash}{CMRPGR1}
+    \strng{fullhash}{CMRPGR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this paper we propose methods for designing phase II trials that allow
+  for a trade-off between treatment safety and antitumor activity, where safety
+  and antitumor activity are measured as binary endpoints. The designs can be
+  carried out either in a single stage or can be conducted in two stages, with
+  an interim analysis to assess whether the treatment appears sufficiently safe
+  and effective to warrant continuing. The emphasis is on the derivation of
+  stopping rules for phase II trials that require the enrollment of a small
+  number of patients and are based on enumerating the exact distribution of the
+  proposed test statistic. We illustrate the methods with a recent study that
+  required the use of a group sequential design to monitor antitumor activity
+  and toxicity.%
+    }
+    \verb{doi}
+    \verb 10.2307/2532851
+    \endverb
+    \field{issn}{0006-341X}
+    \field{number}{4}
+    \field{pages}{1375\bibrangedash 1386}
+    \field{title}{{Designs for phase II trials allowing for a trade-off between
+  response and toxicity.}}
+    \field{volume}{52}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Conaway, Petroni - 1996 - Designs for phase II trials
+    \verb allowing for a trade-off between response and toxicity.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biometrics}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Thall1995}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TPF}{%
+         family={Thall},
+         familyi={T\bibinitperiod},
+         given={Peter\bibnamedelima F},
+         giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=SRM}{%
+         family={Simon},
+         familyi={S\bibinitperiod},
+         given={Richard\bibnamedelima M},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=EEH}{%
+         family={Estey},
+         familyi={E\bibinitperiod},
+         given={Elihu\bibnamedelima H},
+         giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TPFSRMEEH2}
+    \strng{fullhash}{TPFSRMEEH2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{October 1993}
+    \field{pages}{357\bibrangedash 379}
+    \field{title}{{Single-Arm Clinical Trials With Multiple Outcomes}}
+    \field{volume}{14}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Thall, Simon, Estey - 1995 - Single-Arm Clinical Trial
+    \verb s With Multiple Outcomes(2).pdf:pdf
+    \endverb
+    \field{journaltitle}{Statistics in Medicine}
+    \field{year}{1995}
+  \endentry
+
+  \entry{Thall1996a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TPF}{%
+         family={Thall},
+         familyi={T\bibinitperiod},
+         given={P\bibnamedelima F},
+         giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=SRM}{%
+         family={Simon},
+         familyi={S\bibinitperiod},
+         given={R\bibnamedelima M},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=EEH}{%
+         family={Estey},
+         familyi={E\bibinitperiod},
+         given={E\bibnamedelima H},
+         giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Anthracyclines,Antineoplastic Agents,Antineoplastic
+  Agents,Combined,Bayes Theorem,Clinical Trials,Clinical Trials,Phase
+  II,Comparative
+  Study,Cyclosporine,Cytarabine,Human,Idarubicin,Leukemia,Leukemia,Myelocytic,Acute,Mathematical
+  Computing,Monitoring,Physiologic,Patients,Probability,Remission
+  Induction,Research Design,Safety,United States,administration {\&}
+  dosage,adverse effects,drug therapy,methods,therapeutic use,toxicity}
+    \strng{namehash}{TPFSRMEEH1}
+    \strng{fullhash}{TPFSRMEEH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    PURPOSE: Efficacy and toxicity are both important outcomes in cancer
+  clinical trials. Nonetheless, most statistical designs for phase II trials
+  only provide rules for evaluating treatment efficacy, and moreover only allow
+  early stopping after fixed cohorts of patients have been treated. We
+  illustrate a new statistical design strategy for monitoring both adverse and
+  efficacy outcomes on a patient-by-patient basis in phase II and other
+  single-arm clinical trials. DESIGN: The new strategy is used to design a
+  phase II trial of the experimental regimen idarubicin plus cytarabine (ara-C)
+  plus cyclosporine for treatment of patients with intermediate-prognosis acute
+  myelogenous leukemia (AML). The design requires a maximum of 56 patients and
+  provides continuous monitoring boundaries to terminate the trial if the
+  toxicity rate is unacceptably high or the complete remission (CR) rate is
+  unacceptably low compared with the rates of these events with the standard
+  regimen of anthracycline plus ara-C. RESULTS: The design has an 88{\%} to
+  91{\%} probability of stopping the trial early with a median of 15 to 18
+  patients if the toxicity rate of the experimental regimen is .05 to .10 above
+  that of the standard and there is no improvement in the CR rate. If there is
+  a .15 improvement in the CR rate and the toxicity rate is no more than .05
+  above that of the standard, then there is at least an 83{\%} probability that
+  the trial will run to completion. CONCLUSION: The proposed monitoring
+  strategy provides a flexible, practical means to continuously monitor both
+  safety and efficacy in single-arm cancer clinical trials. The design strategy
+  can be implemented easily using a freely available menu-driven computer
+  program, and provides a scientifically sound alternative to the use of ad hoc
+  safety monitoring rules%
+    }
+    \field{issn}{0732-183X}
+    \field{number}{0732-183X SB - M SB - X}
+    \field{pages}{296\bibrangedash 303}
+    \field{title}{{New statistical strategy for monitoring safety and efficacy
+  in single- arm clinical trials}}
+    \field{volume}{14}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Thall, Simon, Estey - 1996 - New statistical strategy
+    \verb for monitoring safety and efficacy in single- arm clinical trials(2).
+    \verb pdf:pdf
+    \endverb
+    \field{journaltitle}{J.Clin.Oncol.}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Thall1998}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TPF}{%
+         family={Thall},
+         familyi={T\bibinitperiod},
+         given={Peter\bibnamedelima F.},
+         giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=SHG}{%
+         family={Sung},
+         familyi={S\bibinitperiod},
+         given={Hsi\bibnamedelima Guang},
+         giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TPFSHG1}
+    \strng{fullhash}{TPFSHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We present some practical extensions and applications of a strategy
+  proposed by Thall, Simon and Estey for designing and monitoring single-arm
+  clinical trials with multiple outcomes. We show by application how the
+  strategy may be applied to construct designs for phase IIA activity trials
+  and phase II equivalence trials. We also show how it may be extended to
+  incorporate the use of mixture priors in settings where a Dirichlet
+  distribution does not adequately quantify prior experience, randomized phase
+  II selection trials involving two or more experimental treatments, and trials
+  with group-sequential monitoring for applications involving multiple
+  institutions.%
+    }
+    \verb{doi}
+    \verb 10.1002/(SICI)1097-0258(19980730)17:14<1563::AID-SIM873>3.0.CO;2-L
+    \endverb
+    \field{isbn}{0277-6715 (Print)$\backslash$r0277-6715 (Linking)}
+    \field{issn}{02776715}
+    \field{number}{14}
+    \field{pages}{1563\bibrangedash 1580}
+    \field{title}{{Some extensions and applications of a Bayesian strategy for
+  monitoring multiple outcomes in clinical trials}}
+    \field{volume}{17}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Thall, Sung - 1998 - Some extensions and applications
+    \verb of a Bayesian strategy for monitoring multiple outcomes in clinical t
+    \verb rials.pdf:pdf
+    \endverb
+    \field{journaltitle}{Statistics in Medicine}
+    \field{year}{1998}
+  \endentry
+
+  \entry{Wathen2008}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WJK}{%
+         family={Wathen},
+         familyi={W\bibinitperiod},
+         given={J.\bibnamedelima Kyle},
+         giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=TPF}{%
+         family={Thall},
+         familyi={T\bibinitperiod},
+         given={Peter\bibnamedelima F.},
+         giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=CJD}{%
+         family={Cook},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=EEH}{%
+         family={Estey},
+         familyi={E\bibinitperiod},
+         given={Elihu\bibnamedelima H},
+         giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJK+1}
+    \strng{fullhash}{WJKTPFCJDEEH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/sim
+    \endverb
+    \field{isbn}{2007090091480}
+    \field{issn}{02776715}
+    \field{pages}{2802\bibrangedash 2815}
+    \field{title}{{Accounting for patient heterogeneity in phase II clinical
+  trials J.}}
+    \field{volume}{27}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Wathen et al. - 2008 - Accounting for patient heteroge
+    \verb neity in phase II clinical trials J.pdf:pdf
+    \endverb
+    \field{journaltitle}{Statistics in medicine}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Buyse2011}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BM}{%
+         family={Buyse},
+         familyi={B\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Michiels},
+         familyi={M\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SDJ}{%
+         family={Sargent},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Grothey},
+         familyi={G\bibinitperiod},
+         given={Axel},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Matheson},
+         familyi={M\bibinitperiod},
+         given={Alastair},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=dGA}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Gramont},
+         familyi={G\bibinitperiod},
+         given={Aimery},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Biomarkers}
+    \strng{namehash}{BM+1}
+    \strng{fullhash}{BMMSSDJGAMAGAd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Clinical trials have revolutionized medicine by providing reliable evidence
+  on the efficacy and safety of new treatments. Until recently, clini-cal
+  trials were designed and analyzed under the assumption that the effects of
+  treatment were broadly similar in different individuals, and hence the goal
+  of the clinical trial was primar-ily to provide precise and unbiased
+  estimates of these common effects. Today, the advent of molecular biology has
+  modified the funda mental tenet that the effect of treatment varies only
+  ran-domly from patient to patient. There are indeed increasing numbers of
+  treatments (especially targeted agents) whose effects vary widely as a
+  function of individual molecular characteristics. When these characteristics
+  are known early on in the course of developing of new treatments, clinical
+  trials can be designed to target only those patients who are expected to
+  benefit. However, more commonly, the exact molecular character-istics that
+  drive a patient's response to a specific treatment are unknown and might only
+  be dis-covered during the clinical development of the treatment or indeed
+  following its approval. This fact has profound implications for clinical
+  trials; it may indeed revolutionize the way in which tri-als are planned and
+  executed [1–3]. The purposes of this article are, first, to discuss the
+  ways in which biomarkers (including, but not limited to, molecular
+  characteristics) are validated in clini-cal trials, and second, to consider
+  how they can be incorporated into clinical trial designs with the goal of
+  optimizing the use of new therapies in biomarker-defined subgroups of
+  patients. Our examples all come from the field of oncology, where efforts to
+  develop new methodologies for clinical research have been most intense, but
+  fur-ther examples abound in the other therapeutic areas [4]. We will focus
+  our discussion on statisti-cal issues, leaving aside practical considerations
+  related to the bio markers themselves, such as their accessibility in
+  specific tissues (e.g., in fresh, frozen or formalin-fixed paraffin-embedded
+  tis-sue) or the ease and reliability of their quantifica-tion (e.g., through
+  reverse-transcriptase PCR or microarray), all of which greatly contribute to
+  their potential for use in clinical practice.%
+    }
+    \verb{doi}
+    \verb 10.1586/ERM.10.120
+    \endverb
+    \field{issn}{1473-7159}
+    \field{number}{2}
+    \field{pages}{171\bibrangedash 182}
+    \field{title}{{Integrating biomarkers in clinical trials}}
+    \field{volume}{11}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Buyse et al. - 2011 - Integrating biomarkers in clinic
+    \verb al trials.pdf:pdf
+    \endverb
+    \field{journaltitle}{Expert Review of Molecular Diagnostics2}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Bang2010}{article}{}
+    \name{author}{16}{}{%
+      {{hash=BYJ}{%
+         family={Bang},
+         familyi={B\bibinitperiod},
+         given={Yung\bibnamedelima Jue},
+         giveni={Y\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={{Van Cutsem}},
+         familyi={V\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Feyereislova},
+         familyi={F\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CHC}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Hyun\bibnamedelima C.},
+         giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Lin},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sawaki},
+         familyi={S\bibinitperiod},
+         given={Akira},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Lordick},
+         familyi={L\bibinitperiod},
+         given={Florian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Ohtsu},
+         familyi={O\bibinitperiod},
+         given={Atsushi},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=OY}{%
+         family={Omuro},
+         familyi={O\bibinitperiod},
+         given={Yasushi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Satoh},
+         familyi={S\bibinitperiod},
+         given={Taroh},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Aprile},
+         familyi={A\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Kulikov},
+         familyi={K\bibinitperiod},
+         given={Evgeny},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hill},
+         familyi={H\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lehle},
+         familyi={L\bibinitperiod},
+         given={Michaela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={R??schoff},
+         familyi={R\bibinitperiod},
+         given={Josef},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KYK}{%
+         family={Kang},
+         familyi={K\bibinitperiod},
+         given={Yoon\bibnamedelima Koo},
+         giveni={Y\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Ltd}%
+    }
+    \strng{namehash}{BYJ+1}
+    \strng{fullhash}{BYJVEFACHCSLSALFOAOYSTAGKEHJLMRJKYK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Background Trastuzumab, a monoclonal antibody against human epidermal
+  growth factor receptor 2 (HER2; also known as ERBB2), was investigated in
+  combination with chemotherapy for first-line treatment of HER2-positive
+  advanced gastric or gastro-oesophageal junction cancer. Methods ToGA
+  (Trastuzumab for Gastric Cancer) was an open-label, international, phase 3,
+  randomised controlled trial undertaken in 122 centres in 24 countries.
+  Patients with gastric or gastro-oesophageal junction cancer were eligible for
+  inclusion if their tumours showed overexpression of HER2 protein by
+  immunohistochemistry or gene amplification by fluorescence in-situ
+  hybridisation. Participants were randomly assigned in a 1:1 ratio to receive
+  a chemotherapy regimen consisting of capecitabine plus cisplatin or
+  fluorouracil plus cisplatin given every 3 weeks for six cycles or
+  chemotherapy in combination with intravenous trastuzumab. Allocation was by
+  block randomisation stratified by Eastern Cooperative Oncology Group
+  performance status, chemotherapy regimen, extent of disease, primary cancer
+  site, and measurability of disease, implemented with a central interactive
+  voice recognition system. The primary endpoint was overall survival in all
+  randomised patients who received study medication at least once. This trial
+  is registered with ClinicalTrials.gov, number NCT01041404. Findings 594
+  patients were randomly assigned to study treatment (trastuzumab plus
+  chemotherapy, n=298; chemotherapy alone, n=296), of whom 584 were included in
+  the primary analysis (n=294; n=290). Median follow-up was 18??6 months (IQR
+  11-25) in the trastuzumab plus chemotherapy group and 17??1 months (9-25) in
+  the chemotherapy alone group. Median overall survival was 13??8 months (95 CI
+  12-16) in those assigned to trastuzumab plus chemotherapy compared with 11??1
+  months (10-13) in those assigned to chemotherapy alone (hazard ratio 0??74;
+  95 CI 0??60-0??91; p=0??0046). The most common adverse events in both groups
+  were nausea (trastuzumab plus chemotherapy, 197 [67] vs chemotherapy alone,
+  184 [63]), vomiting (147 [50] vs 134 [46]), and neutropenia (157 [53] vs 165
+  [57]). Rates of overall grade 3 or 4 adverse events (201 [68] vs 198 [68])
+  and cardiac adverse events (17 [6] vs 18 [6]) did not differ between groups.
+  Interpretaion Trastuzumab in combination with chemotherapy can be considered
+  as a new standard option for patients with HER2-positive advanced gastric or
+  gastro-oesophageal junction cancer. Funding F Hoffmann-La Roche. ?? 2010
+  Elsevier Ltd.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0140-6736(10)61121-X
+    \endverb
+    \field{isbn}{01406736 (ISSN)}
+    \field{issn}{01406736}
+    \field{number}{9742}
+    \field{pages}{687\bibrangedash 697}
+    \field{title}{{Trastuzumab in combination with chemotherapy versus
+  chemotherapy alone for treatment of HER2-positive advanced gastric or
+  gastro-oesophageal junction cancer (ToGA): A phase 3, open-label, randomised
+  controlled trial}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/S0140-6736(10)61121-X
+    \endverb
+    \field{volume}{376}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Bang et al. - 2010 - Trastuzumab in combination with c
+    \verb hemotherapy versus chemotherapy alone for treatment of HER2-positive
+    \verb advanced gast.pdf:pdf
+    \endverb
+    \field{journaltitle}{The Lancet}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Kim2011}{article}{}
+    \name{author}{24}{}{%
+      {{hash=KES}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Edward\bibnamedelima S.},
+         giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HRS}{%
+         family={Herbst},
+         familyi={H\bibinitperiod},
+         given={Roy\bibnamedelima S.},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WII}{%
+         family={Wistuba},
+         familyi={W\bibinitperiod},
+         given={Ignacio\bibnamedelima I.},
+         giveni={I\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=JJ}{%
+         family={{Jack Lee}},
+         familyi={J\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BGR}{%
+         family={Blumenschein},
+         familyi={B\bibinitperiod},
+         given={George\bibnamedelima R.},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tsao},
+         familyi={T\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SDJ}{%
+         family={Stewart},
+         familyi={S\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HME}{%
+         family={Hicks},
+         familyi={H\bibinitperiod},
+         given={Marshall\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Erasmus},
+         familyi={E\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Sanjay},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ACM}{%
+         family={Alden},
+         familyi={A\bibinitperiod},
+         given={Christine\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Suyu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TX}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Ximing},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=KFR}{%
+         family={Khuri},
+         familyi={K\bibinitperiod},
+         given={Fadlo\bibnamedelima R.},
+         giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=THT}{%
+         family={Tran},
+         familyi={T\bibinitperiod},
+         given={Hai\bibnamedelima T.},
+         giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=JBE}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Bruce\bibnamedelima E.},
+         giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HJV}{%
+         family={Heymach},
+         familyi={H\bibinitperiod},
+         given={John\bibnamedelima V.},
+         giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FF}{%
+         family={Fossella},
+         familyi={F\bibinitperiod},
+         given={Frank},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KMS}{%
+         family={Kies},
+         familyi={K\bibinitperiod},
+         given={Merrill\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Papadimitrakopoulou},
+         familyi={P\bibinitperiod},
+         given={Vassiliki},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=DSE}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Suzanne\bibnamedelima E.},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=LSM}{%
+         family={Lippman},
+         familyi={L\bibinitperiod},
+         given={Scott\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HWK}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={Waun\bibnamedelima K.},
+         giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \keyw{NSCLC,biomarkers}
+    \strng{namehash}{KES+1}
+  \strng{fullhash}{KESHRSWIIJJBGRTASDJHMEEJGSACMLSTXKFRTHTJBEHJVMLFFKMSPVDSELSMHWK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    UNLABELLED: The Biomarker-integrated Approaches of Targeted Therapy for
+  Lung Cancer Elimination (BATTLE) trial represents the first completed
+  prospective, biopsy-mandated, biomarker-based, adaptively randomized study in
+  255 pretreated lung cancer patients. Following an initial equal randomization
+  period, chemorefractory non-small cell lung cancer (NSCLC) patients were
+  adaptively randomized to erlotinib, vandetanib, erlotinib plus bexarotene, or
+  sorafenib, based on relevant molecular biomarkers analyzed in fresh core
+  needle biopsy specimens. Overall results include a 46{\%} 8-week disease
+  control rate (primary end point), confirm prespecified hypotheses, and show
+  an impressive benefit from sorafenib among mutant-KRAS patients. BATTLE
+  establishes the feasibility of a new paradigm for a personalized approach to
+  lung cancer clinical trials. SIGNIFICANCE: The BATTLE study is the first
+  completed prospective, adaptively randomized study in heavily pretreated
+  NSCLC patients that mandated tumor profiling with "real-time" biopsies,
+  taking a substantial step toward realizing personalized lung cancer therapy
+  by integrating real-time molecular laboratory findings in delineating
+  specific patient populations for individualized treatment.%
+    }
+    \verb{doi}
+    \verb 10.1158/2159-8274.CD-10-0010
+    \endverb
+    \verb{eprint}
+    \verb 1112.3563
+    \endverb
+    \field{isbn}{2159-8290 (Electronic)$\backslash$r2159-8274 (Linking)}
+    \field{issn}{21598274}
+    \field{number}{1}
+    \field{pages}{44\bibrangedash 53}
+    \field{title}{{The BATTLE trial: Personalizing Therapy for Lung Cancer}}
+    \field{volume}{1}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Kim et al. - 2011 - The BATTLE trial Personalizing The
+    \verb rapy for Lung Cancer.pdf:pdf
+    \endverb
+    \field{journaltitle}{Cancer Discovery}
+    \field{eprinttype}{arXiv}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Freidlin2010}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FB}{%
+         family={Freidlin},
+         familyi={F\bibinitperiod},
+         given={Boris},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MLM}{%
+         family={McShane},
+         familyi={M\bibinitperiod},
+         given={Lisa\bibnamedelima M.},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KEL}{%
+         family={Korn},
+         familyi={K\bibinitperiod},
+         given={Edward\bibnamedelima L.},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \keyw{Biomarkers}
+    \strng{namehash}{FBMLMKEL1}
+    \strng{fullhash}{FBMLMKEL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Clinical biomarker tests that aid in making treatment decisions will play
+  an important role in achieving personalized medicine for cancer patients.
+  Definitive evaluation of the clinical utility of these biomarkers requires
+  conducting large randomized clinical trials (RCTs). Efficient RCT design is
+  therefore crucial for timely introduction of these medical advances into
+  clinical practice, and a variety of designs have been proposed for this
+  purpose. To guide design and interpretation of RCTs evaluating biomarkers, we
+  present an in-depth comparison of advantages and disadvantages of the
+  commonly used designs. Key aspects of the discussion include efficiency
+  comparisons and special interim monitoring issues that arise because of the
+  complexity of these RCTs. Important ongoing and completed trials are used as
+  examples. We conclude that, in most settings, randomized biomarker-stratified
+  designs (ie, designs that use the biomarker to guide analysis but not
+  treatment assignment) should be used to obtain a rigorous assessment of
+  biomarker clinical utility.%
+    }
+    \verb{doi}
+    \verb 10.1093/jnci/djp477
+    \endverb
+    \field{isbn}{1460-2105 (Electronic) 0027-8874 (Linking)}
+    \field{issn}{00278874}
+    \field{number}{3}
+    \field{pages}{152\bibrangedash 160}
+    \field{title}{{Randomized clinical trials with biomarkers: Design issues}}
+    \field{volume}{102}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Freidlin, McShane, Korn - 2010 - Randomized clinical t
+    \verb rials with biomarkers Design issues.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of the National Cancer Institute}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Antoniou2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AM}{%
+         family={Antoniou},
+         familyi={A\bibinitperiod},
+         given={Miranta},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JAL}{%
+         family={Jorgensen},
+         familyi={J\bibinitperiod},
+         given={Andrea\bibnamedelima L},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=KDR}{%
+         family={Kolamunnage-Dona},
+         familyi={K\bibinitperiod-D\bibinitperiod},
+         given={Ruwanthi},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Biomarkers}
+    \strng{namehash}{AMJALKDR1}
+    \strng{fullhash}{AMJALKDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1371/journal.pone.0149803
+    \endverb
+    \field{issn}{1932-6203}
+    \field{number}{2}
+    \field{pages}{e0149803}
+    \field{title}{{Biomarker-Guided Adaptive Trial Designs in Phase II and
+  Phase III: A Methodological Review}}
+    \verb{url}
+    \verb http://dx.plos.org/10.1371/journal.pone.0149803
+    \endverb
+    \field{volume}{11}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Antoniou, Jorgensen, Kolamunnage-Dona - 2016 - Biomark
+    \verb er-Guided Adaptive Trial Designs in Phase II and Phase III A Methodol
+    \verb ogical Review.pdf:pdf
+    \endverb
+    \field{journaltitle}{Plos One}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Bryant1995}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BJ}{%
+         family={Bryant},
+         familyi={B\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=DR}{%
+         family={Day},
+         familyi={D\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+    }
+    \keyw{EfficacyToxicity,early stopping,ii trials,toxicity considerations in
+  phase,two-stage clinical trials}
+    \strng{namehash}{BJDR1}
+    \strng{fullhash}{BJDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Phase II study designs are proposed that evaluate both clinical response
+  and toxicity, and that are similar in structure to Simon's two-stage designs.
+  Sample sizes and decision criteria are chosen to minimize the maximum
+  expected accrual, given that the treatment is unacceptable either in terms of
+  clinical response or toxicity. This is achieved subject to control of error
+  rates, either uniformly over all possible correlation structures linking
+  response and toxicity, or alternatively, under an assumption of independence
+  between response and toxicity. In the latter case, bounds on the error rates
+  show that effective control is still uniformly achieved even if the
+  independence assumption is relaxed.%
+    }
+    \verb{doi}
+    \verb 10.2307/2533268
+    \endverb
+    \field{issn}{0006-341X}
+    \field{number}{4}
+    \field{pages}{1372\bibrangedash 1383}
+    \field{title}{{Incorporating toxicity considerations into the design of
+  two-stage phase II clinical trials.}}
+    \field{volume}{51}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Bryant, Day - 1995 - Incorporating toxicity considerat
+    \verb ions into the design of two-stage phase II clinical trials.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biometrics}
+    \field{year}{1995}
+  \endentry
+
+  \entry{Garon2015}{article}{}
+    \name{author}{28}{}{%
+      {{hash=GEB}{%
+         family={Garon},
+         familyi={G\bibinitperiod},
+         given={Edward\bibnamedelima B},
+         giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=RNa}{%
+         family={Rizvi},
+         familyi={R\bibinitperiod},
+         given={Naiyer\bibnamedelima a},
+         giveni={N\bibinitperiod\bibinitdelim a\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Hui},
+         familyi={H\bibinitperiod},
+         given={Rina},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Leighl},
+         familyi={L\bibinitperiod},
+         given={Natasha},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BAS}{%
+         family={Balmanoukian},
+         familyi={B\bibinitperiod},
+         given={Ani\bibnamedelima S},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=EJP}{%
+         family={Eder},
+         familyi={E\bibinitperiod},
+         given={Joseph\bibnamedelima Paul},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Patnaik},
+         familyi={P\bibinitperiod},
+         given={Amita},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Aggarwal},
+         familyi={A\bibinitperiod},
+         given={Charu},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gubens},
+         familyi={G\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HL}{%
+         family={Horn},
+         familyi={H\bibinitperiod},
+         given={Leora},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Carcereny},
+         familyi={C\bibinitperiod},
+         given={Enric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AMj}{%
+         family={Ahn},
+         familyi={A\bibinitperiod},
+         given={Myung-ju},
+         giveni={M\bibinitperiod-j\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Felip},
+         familyi={F\bibinitperiod},
+         given={Enriqueta},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LJs}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Jong-seok},
+         giveni={J\bibinitperiod-s\bibinitperiod},
+      }}%
+      {{hash=HMD}{%
+         family={Hellmann},
+         familyi={H\bibinitperiod},
+         given={Matthew\bibnamedelima D},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=HO}{%
+         family={Hamid},
+         familyi={H\bibinitperiod},
+         given={Omid},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GJW}{%
+         family={Goldman},
+         familyi={G\bibinitperiod},
+         given={Jonathan\bibnamedelima W},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=SJc}{%
+         family={Soria},
+         familyi={S\bibinitperiod},
+         given={Jean-charles},
+         giveni={J\bibinitperiod-c\bibinitperiod},
+      }}%
+      {{hash=DFM}{%
+         family={Dolled-Filhart},
+         familyi={D\bibinitperiod-F\bibinitperiod},
+         given={Marisa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RRZ}{%
+         family={Rutledge},
+         familyi={R\bibinitperiod},
+         given={Ruth\bibnamedelima Z},
+         giveni={R\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LJK}{%
+         family={Lunceford},
+         familyi={L\bibinitperiod},
+         given={Jared\bibnamedelima K},
+         giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Rangwala},
+         familyi={R\bibinitperiod},
+         given={Reshma},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LGM}{%
+         family={Lubiniecki},
+         familyi={L\bibinitperiod},
+         given={Gregory\bibnamedelima M},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Roach},
+         familyi={R\bibinitperiod},
+         given={Charlotte},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EK}{%
+         family={Emancipator},
+         familyi={E\bibinitperiod},
+         given={Kenneth},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Gandhi},
+         familyi={G\bibinitperiod},
+         given={Leena},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=K}{%
+         family={{KEYNOTE-001 Investigators}},
+         familyi={K\bibinitperiod},
+      }}%
+    }
+    \keyw{NSCLC,PD1,Pembrolizumab}
+    \strng{namehash}{GEB+1}
+  \strng{fullhash}{GEBRNaHRLNBASEJPPAACGMHLCEAMjFELJsHMDHOGJWSJcDFMRRZZJLJKRRLGMRCEKGLK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    BACKGROUND We assessed the efficacy and safety of programmed cell death 1
+  (PD-1) inhibition with pembrolizumab in patients with advanced non-small-cell
+  lung cancer enrolled in a phase 1 study. We also sought to define and
+  validate an expression level of the PD-1 ligand 1 (PD-L1) that is associated
+  with the likelihood of clinical benefit. METHODS We assigned 495 patients
+  receiving pembrolizumab (at a dose of either 2 mg or 10 mg per kilogram of
+  body weight every 3 weeks or 10 mg per kilogram every 2 weeks) to either a
+  training group (182 patients) or a validation group (313 patients). We
+  assessed PD-L1 expression in tumor samples using immunohistochemical
+  analysis, with results reported as the percentage of neoplastic cells with
+  staining for membranous PD-L1 (proportion score). Response was assessed every
+  9 weeks by central review. RESULTS Common side effects that were attributed
+  to pembrolizumab were fatigue, pruritus, and decreased appetite, with no
+  clear difference according to dose or schedule. Among all the patients, the
+  objective response rate was 19.4{\%}, and the median duration of response was
+  12.5 months. The median duration of progression-free survival was 3.7 months,
+  and the median duration of overall survival was 12.0 months. PD-L1 expression
+  in at least 50{\%} of tumor cells was selected as the cutoff from the
+  training group. Among patients with a proportion score of at least 50{\%} in
+  the validation group, the response rate was 45.2{\%}. Among all the patients
+  with a proportion score of at least 50{\%}, median progression-free survival
+  was 6.3 months; median overall survival was not reached. CONCLUSIONS
+  Pembrolizumab had an acceptable side-effect profile and showed antitumor
+  activity in patients with advanced non-small-cell lung cancer. PD-L1
+  expression in at least 50{\%} of tumor cells correlated with improved
+  efficacy of pembrolizumab. (Funded by Merck; KEYNOTE-001 ClinicalTrials.gov
+  number, NCT01295827.).%
+    }
+    \verb{doi}
+    \verb 10.1056/NEJMoa1501824
+    \endverb
+    \field{isbn}{1533-4406 (Electronic) 0028-4793 (Linking)}
+    \field{issn}{1533-4406}
+    \field{number}{21}
+    \field{pages}{2018\bibrangedash 28}
+    \field{title}{{Pembrolizumab for the treatment of non-small-cell lung
+  cancer.}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/25891174
+    \endverb
+    \field{volume}{372}
+    \verb{file}
+    \verb :C$\backslash$:/Users/krist/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Garon et al. - 2015 - Pembrolizumab for the treatment
+    \verb of non-small-cell lung cancer.pdf:pdf
+    \endverb
+    \field{journaltitle}{The New England journal of medicine}
+    \field{year}{2015}
+  \endentry
+
+  \entry{EffTox}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=HR}{%
+         family={Herrick},
+         familyi={H\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=NC}{%
+         family={Norris},
+         familyi={N\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=CJ}{%
+         family={Cook},
+         familyi={C\bibinitperiod},
+         given={JD},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Venier},
+         familyi={V\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MD Anderson Cancer Center}%
+    }
+    \keyw{EfficacyToxicity,Software}
+    \strng{namehash}{HR+1}
+    \strng{fullhash}{HRNCCJVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This computer program provides a basis for constructing, simulating, and
+  conducting the EffTox phase I-II clinical trial design described in the paper
+  “Dose-finding based on efficacy-toxicity trade-offs”, Thall and Cook,
+  Biometrics 60:684-693,2004 [1]. Please read this paper before using this
+  program, which implements the trial design, simulation, and conduct. Please
+  note that very important improvements/refinements have been made in two key
+  elements, (1) the prior and (2) the trade-off contour. These are explained in
+  the tutorial, available here and in the computer program.%
+    }
+    \field{title}{{EffTox}}
+    \verb{url}
+    \verb https://biostatistics.mdanderson.org/softwaredownload/SingleSoftware.
+    \verb aspx?Software{\_}Id=2
+    \endverb
+    \field{year}{2015}
+  \endentry
+\endsortlist
+\endinput
