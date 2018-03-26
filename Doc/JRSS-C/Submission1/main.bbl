@@ -1,0 +1,205 @@
+\begin{thebibliography}{28}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL: }\fi
+
+\bibitem[{Antoniou et~al.(2016)Antoniou, Jorgensen and
+  Kolamunnage-Dona}]{Antoniou2016}
+Antoniou, M., Jorgensen, A.~L. and Kolamunnage-Dona, R. (2016)
+  {Biomarker-Guided Adaptive Trial Designs in Phase II and Phase III: A
+  Methodological Review}.
+\newblock \textit{Plos One}, \textbf{11}, e0149803.
+\newblock \urlprefix\url{http://dx.plos.org/10.1371/journal.pone.0149803}.
+
+\bibitem[{Borghaei et~al.(2015)Borghaei, Paz-Ares, Horn, Spigel, Steins, Ready,
+  Chow, Vokes, Felip, Holgado, Barlesi, Kohlh{\"{a}}ufl, Arrieta, Burgio,
+  Fayette, Lena, Poddubskaya, Gerber, Gettinger, Rudin, Rizvi, Crin{\`{o}},
+  G.R.~Blumenschein, Antonia, Dorange, Harbison, Finckenstein and
+  Brahmer}]{Borghaei2015}
+Borghaei, H., Paz-Ares, L., Horn, L., Spigel, D., Steins, M., Ready, N., Chow,
+  L., Vokes, E., Felip, E., Holgado, E., Barlesi, F., Kohlh{\"{a}}ufl, M.,
+  Arrieta, O., Burgio, M., Fayette, J., Lena, H., Poddubskaya, E., Gerber, D.,
+  Gettinger, S., Rudin, C., Rizvi, N., Crin{\`{o}}, L., G.R.~Blumenschein, J.,
+  Antonia, S., Dorange, C., Harbison, C., Finckenstein, F.~G. and Brahmer, J.
+  (2015) {Nivolumab versus Docetaxel in Advanced Squamous-Cell Non-Small-Cell
+  Lung Cancer.}
+\newblock \textit{The New England journal of medicine}, 1--13.
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/26028407}.
+
+\bibitem[{Braun(2002)}]{Braun2002}
+Braun, T.~M. (2002) {The bivariate continual reassessment method: Extending the
+  CRM to phase I trials of two competing outcomes}.
+\newblock \textit{Controlled Clinical Trials}, \textbf{23}, 240--256.
+
+\bibitem[{Brutti et~al.(2011)Brutti, Gubbiotti and Sambucini}]{Brutti2011}
+Brutti, P., Gubbiotti, S. and Sambucini, V. (2011) {An extension of the single
+  threshold design for monitoring efficacy and safety in phase II clinical
+  trials}.
+\newblock \textit{Statistics in Medicine}, \textbf{30}, 1648--1664.
+
+\bibitem[{Bryant and Day(1995)}]{Bryant1995}
+Bryant, J. and Day, R. (1995) {Incorporating toxicity considerations into the
+  design of two-stage phase II clinical trials.}
+\newblock \textit{Biometrics}, \textbf{51}, 1372--1383.
+
+\bibitem[{Buyse et~al.(2011)Buyse, Michiels, Sargent, Grothey, Matheson and
+  de~Gramont}]{Buyse2011}
+Buyse, M., Michiels, S., Sargent, D.~J., Grothey, A., Matheson, A. and
+  de~Gramont, A. (2011) {Integrating biomarkers in clinical trials}.
+\newblock \textit{Expert Review of Molecular Diagnostics2}, \textbf{11},
+  171--182.
+
+\bibitem[{By and Qaqish()}]{binarySimCLF}
+By, K. and Qaqish, B.~F. () {binarySimCLF}.
+\newblock
+  \urlprefix\url{https://cran.r-project.org/src/contrib/Archive/binarySimCLF/}.
+
+\bibitem[{Carpenter et~al.(2016)Carpenter, Gelman, Hoffman, Lee, Goodrich,
+  Betancourt, Brubaker, Li and Riddell}]{Carpenter2016}
+Carpenter, B., Gelman, A., Hoffman, M., Lee, D., Goodrich, B., Betancourt, M.,
+  Brubaker, M.~A., Li, P. and Riddell, A. (2016) {Stan: A Probabilistic
+  Programming Language}.
+\newblock \textit{Journal of Statistical Software}, \textbf{VV}.
+
+\bibitem[{Conaway and Petroni(1995)}]{Conaway1995}
+Conaway, M.~R. and Petroni, G.~R. (1995) {Bivariate sequential designs for
+  phase II trials.}
+\newblock \textit{Biometrics}, \textbf{51}, 656--664.
+
+\bibitem[{Conaway and Petroni(1996)}]{Conaway1996}
+--- (1996) {Designs for phase II trials allowing for a trade-off between
+  response and toxicity.}
+\newblock \textit{Biometrics}, \textbf{52}, 1375--1386.
+
+\bibitem[{Cook(2006)}]{Cook2006}
+Cook, J.~D. (2006) {Efficacy-Toxicity trade-offs based on L-p norms: Technical
+  Report UTMDABTR-003-06}.
+\newblock \textit{Tech. rep.}
+
+\bibitem[{Cook and Farewell(1994)}]{Cook1994}
+Cook, R.~J. and Farewell, V.~T. (1994) {Guidelines for monitoring efficacy and
+  toxicity responses in clinical trials.}
+\newblock \textit{Biometrics}, \textbf{50}, 1146--1152.
+
+\bibitem[{Eisenhauer et~al.(2009)Eisenhauer, Therasse, Bogaerts, Schwartz,
+  Sargent, Ford, Dancey, Arbuck, Gwyther, Mooney, Rubinstein, Shankar, Dodd,
+  Kaplan, Lacombe and Verweij}]{Eisenhauer2009}
+Eisenhauer, E.~a., Therasse, P., Bogaerts, J., Schwartz, L.~H., Sargent, D.,
+  Ford, R., Dancey, J., Arbuck, S., Gwyther, S., Mooney, M., Rubinstein, L.,
+  Shankar, L., Dodd, L., Kaplan, R., Lacombe, D. and Verweij, J. (2009) {New
+  response evaluation criteria in solid tumours: Revised RECIST guideline
+  (version 1.1)}.
+\newblock \textit{European Journal of Cancer}, \textbf{45}, 228--247.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.ejca.2008.10.026}.
+
+\bibitem[{Freidlin and Korn(2010)}]{Freidlin2010}
+Freidlin, B. and Korn, E.~L. (2010) {Biomarker-adaptive clinical trial
+  designs.}
+\newblock \textit{Pharmacogenomics}, \textbf{11}, 1679--82.
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/21142910}.
+
+\bibitem[{Garon et~al.(2015)Garon, Rizvi, Hui, Leighl, Balmanoukian, Eder,
+  Patnaik, Aggarwal, Gubens, Horn, Carcereny, Ahn, Felip, Lee, Hellmann, Hamid,
+  Goldman, Soria, Dolled-Filhart, Rutledge, Zhang, Lunceford, Rangwala,
+  Lubiniecki, Roach, Emancipator, Gandhi and {KEYNOTE-001
+  Investigators}}]{Garon2015}
+Garon, E.~B., Rizvi, N.~a., Hui, R., Leighl, N., Balmanoukian, A.~S., Eder,
+  J.~P., Patnaik, A., Aggarwal, C., Gubens, M., Horn, L., Carcereny, E., Ahn,
+  M.-j., Felip, E., Lee, J.-s., Hellmann, M.~D., Hamid, O., Goldman, J.~W.,
+  Soria, J.-c., Dolled-Filhart, M., Rutledge, R.~Z., Zhang, J., Lunceford,
+  J.~K., Rangwala, R., Lubiniecki, G.~M., Roach, C., Emancipator, K., Gandhi,
+  L. and {KEYNOTE-001 Investigators} (2015) {Pembrolizumab for the treatment of
+  non-small-cell lung cancer.}
+\newblock \textit{The New England journal of medicine}, \textbf{372}, 2018--28.
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/25891174}.
+
+\bibitem[{Herbst et~al.(2016)Herbst, Baas, Kim, Felip, P{\'{e}}rez-Gracia, Han,
+  Molina, Kim, Arvis, Ahn, Majem, Fidler, De~Castro, Garrido, Lubiniecki,
+  Shentu, Im, Dolled-Filhart and Garon}]{Herbst2016}
+Herbst, R.~S., Baas, P., Kim, D.~W., Felip, E., P{\'{e}}rez-Gracia, J.~L., Han,
+  J.~Y., Molina, J., Kim, J.~H., Arvis, C.~D., Ahn, M.~J., Majem, M., Fidler,
+  M.~J., De~Castro, G., Garrido, M., Lubiniecki, G.~M., Shentu, Y., Im, E.,
+  Dolled-Filhart, M. and Garon, E.~B. (2016) {Pembrolizumab versus docetaxel
+  for previously treated, PD-L1-positive, advanced non-small-cell lung cancer
+  (KEYNOTE-010): A randomised controlled trial}.
+\newblock \textit{The Lancet}, \textbf{387}, 1540--1550.
+
+\bibitem[{Jin(2007)}]{Jin2007}
+Jin, H. (2007) {Alternative designs of phase II trials considering response and
+  toxicity}.
+\newblock \textit{Contemporary Clinical Trials}, \textbf{28}, 525--531.
+
+\bibitem[{Mandrekar et~al.(2010)Mandrekar, Qin and Sargent}]{Mandrekar2010}
+Mandrekar, S.~J., Qin, R. and Sargent, D.~J. (2010) {Model-based phase I
+  designs incorporating toxicity and efficacy for single and dual agent drug
+  combinations: Methods and challenges}.
+\newblock \textit{Statistics in Medicine}, \textbf{29}, 1077--1083.
+
+\bibitem[{Morita et~al.(2014)Morita, Yamamoto and Sugitani}]{Morita2014}
+Morita, S., Yamamoto, H. and Sugitani, Y. (2014) {Biomarker-based Bayesian
+  randomized phase II clinical trial design to identify a sensitive patient
+  subpopulation}.
+\newblock \textit{Statistics in medicine}, \textbf{33}, 4008--4016.
+
+\bibitem[{Murtaugh and Fisher(1990)}]{Murtaugh1990}
+Murtaugh, P.~A. and Fisher, L. (1990) {Bivariate Binary Models of Efficacy and
+  Toxicity in Dose-Ranging Trials}.
+\newblock \textit{Communications in Statistics-Theory and Methods},
+  \textbf{19}, 2003--2020.
+
+\bibitem[{O'Quigley et~al.(1990)O'Quigley, Pepe and Fisher}]{OQuigley1990}
+O'Quigley, J., Pepe, M. and Fisher, L. (1990) {Continual reassessment method: a
+  practical design for phase 1 clinical trials in cancer.}
+\newblock \textit{Biometrics}, \textbf{46}, 33--48.
+
+\bibitem[{Qaqish(2003)}]{Qaqish2003}
+Qaqish, B.~F. (2003) {A family of multivariate binary distributions for
+  simulating correlated binary variables with specified marginal means and
+  correlations}.
+\newblock \textit{Biometrika}, \textbf{90}, 455--463.
+
+\bibitem[{Schiller et~al.(2002)Schiller, Harrington, Belani, Langer, Sandler,
+  Krook, Zhu and Johnson}]{Schiller2002}
+Schiller, J.~H., Harrington, D., Belani, C.~P., Langer, C., Sandler, A., Krook,
+  J., Zhu, J. and Johnson, D.~H. (2002) {Comparison of four chemotherapy
+  regimens for advanced non-small-cell lung cancer.}
+\newblock \textit{The New England journal of medicine}, \textbf{346}, 92--8.
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/11784875}.
+
+\bibitem[{Thall and Cook(2004)}]{Thall2004}
+Thall, P. and Cook, J. (2004) {Dose-Finding Based on Efficacy-Toxicity
+  Trade-Offs}.
+\newblock \textit{Biometrics}, \textbf{60}, 684--693.
+
+\bibitem[{Thall et~al.(2014)Thall, Herrick, Nguyen, Venier and
+  Norris}]{Thall2014}
+Thall, P., Herrick, R., Nguyen, H., Venier, J. and Norris, J. (2014) {Effective
+  sample size for computing prior hyperparameters in Bayesian phase I-II
+  dose-finding}.
+\newblock \textit{Clinical Trials}, \textbf{11}, 657--666.
+\newblock
+  \urlprefix\url{http://ctj.sagepub.com/cgi/doi/10.1177/1740774514547397}.
+
+\bibitem[{Thatcher et~al.(2005)Thatcher, Chang, Parikh, Pereira, Ciuleanu,
+  Von~Pawel, Thongprasert, Tan, Pemberton, Archer and Carroll}]{Thatcher2005}
+Thatcher, N., Chang, A., Parikh, P., Pereira, J.~R., Ciuleanu, T., Von~Pawel,
+  J., Thongprasert, S., Tan, E.~H., Pemberton, K., Archer, V. and Carroll, K.
+  (2005) {Gefitinib plus best supportive care in previously treated patients
+  with refractory advanced non-small-cell lung cancer: Results from a
+  randomised, placebo-controlled, multicentre study (Iressa Survival Evaluation
+  in Lung Cancer)}.
+\newblock \textit{Lancet}, \textbf{366}, 1527--1537.
+
+\bibitem[{Wages and Tait(2014)}]{Wages2014}
+Wages, N.~a. and Tait, C. (2014) {Seamless Phase I/II Adaptive Design For
+  Oncology Trials of Molecularly Targeted Agents.}
+\newblock \textit{Journal of biopharmaceutical statistics}, 1--30.
+\newblock \urlprefix\url{http://dx.doi.org/10.1080/10543406.2014.920873}.
+
+\bibitem[{Zhang et~al.(2006)Zhang, Sargent and Mandrekar}]{Zhang2006}
+Zhang, W., Sargent, D.~J. and Mandrekar, S. (2006) {An adaptive dose-finding
+  design incorporating both toxicity and efficacy}.
+\newblock \textit{Statistics in Medicine}, \textbf{25}, 2365--2383.
+
+\end{thebibliography}

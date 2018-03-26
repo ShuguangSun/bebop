@@ -1,0 +1,11 @@
+
+The manuscript was submitted to a special edition of JRSS-C on early phase
+trial methodology. The paper was rejected. The critical piece of feedback was
+that the method was not novel, but a sub-case of a general design published by
+Thall, Nguyen and Estey in 2008. The reviewer also disliked the absence of any
+possibility for heterogeneity in the toxicity model (i.e. the 411 model was 
+proposed). This feedback is frustrating in a way because clinical evidence exists
+to support the assumption that toxicity does not vary across cohorts. Parameters
+must be paid for in sample size, and adding parameters that probably add nothing
+is detrmental to power. However, the reviewer probably thought that this cost
+should at least be illustrated.

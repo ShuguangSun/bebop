@@ -1,0 +1,314 @@
+%%%%%%%%%%%%%%%%%%%% author.tex %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% sample root file for your "contribution" to a contributed volume
+%
+% Use this file as a template for your own input.
+%
+%%%%%%%%%%%%%%%% Springer %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% RECOMMENDED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[graybox]{svmult}
+
+% choose options for [] as required from the list
+% in the Reference Guide
+
+\usepackage{mathptmx}       % selects Times Roman as basic font
+\usepackage{helvet}         % selects Helvetica as sans-serif font
+\usepackage{courier}        % selects Courier as typewriter font
+%\usepackage{type1cm}        % activate if the above 3 fonts are
+                            % not available on your system
+%
+\usepackage{makeidx}         % allows index generation
+\usepackage{graphicx}        % standard LaTeX graphics tool
+                             % when including figure files
+\usepackage{multicol}        % used for the two-column index
+\usepackage[bottom]{footmisc}% places footnotes at page bottom
+
+\usepackage{url}               % for active URLs
+\usepackage{amsmath}	 % General math package
+\usepackage{amsbsy} 	  % For bold maths symbols
+\usepackage{amssymb}    % For hollow R, the real symbol, and similar
+
+\DeclareMathOperator{\logit}{logit}
+
+
+%\usepackage[backend=bibtex, style=spbasic, natbib=true]{biblatex} % breaks
+\usepackage[backend=bibtex, natbib=true]{biblatex}
+\addbibresource{library.bib}
+
+
+% see the list of further useful packages
+% in the Reference Guide
+
+\makeindex             % used for the subject index
+                       % please use the style svind.ist with
+                       % your makeindex program
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\title*{A Phase II Clinical Trial with Efficacy and Toxicity Outcomes and Baseline Covariates}
+% Use \titlerunning{Short Title} for an abbreviated version of
+% your contribution title if the original one is too long
+\author{Kristian Brock, Lucinda Billingham, Christina Yap and Gary Middleton}
+% Use \authorrunning{Short Title} for an abbreviated version of
+% your contribution title if the original one is too long
+\institute{
+	Kristian Brock \at University of Birmingham, UK, B15 2TT, \email{k.brock@bham.ac.uk}
+	\and Lucinda Billingham \at University of Birmingham, UK, B15 2TT, \email{l.j.billingham@bham.ac.uk}
+	\and Christina Yap \at University of Birmingham, UK, B15 2TT, \email{c.yap@bham.ac.uk}
+	\and Gary Middleton \at University of Birmingham, UK, B15 2TT, \email{g.middleton@bham.ac.uk}
+}
+%
+% Use the package "url.sty" to avoid
+% problems with special characters
+% used in your e-mail or web address
+%
+\maketitle
+
+\abstract*{
+	PePS2 is a phase II trial of the efficacy and safety of pembrolizumab in performance status 2 non-small-cell lung cancer patients.
+	Previous studies have shown that efficacy is correlated with the extent to which PD-L1 is expressed in the tumour, and pretreatedness.
+	There are few clinical trial designs that test co-primary efficacy and toxicity outcomes in phase II, and fewer still that incorporate baseline covariates. 
+	Thall, Nguyen and Estey present one such design but it has been scarcely used in trials.
+	Their model incorporates terms to conduct a dose-finding study.
+	This aspect is not required in PePS2 because a candidate dose has been widely tested. 
+	We introduce a novel simplification for phase II that focuses on testing efficacy and toxicity whilst adjusting for baseline covariates.
+	The method shares information across cohorts.
+	Simulations show it is far more efficient than analysing cohorts separately.
+	Using the design in PePS2 with 60 patients to test the treatment in six cohorts, we can expect error rates typical of those used in phase II trials.
+	However, we demonstrate that care must be used when specifying the models for efficacy and toxicity because more complex models require greater sample sizes for bias to be controlled.
+}
+
+\abstract{
+	PePS2 is a phase II trial of the efficacy and safety of pembrolizumab in performance status 2 non-small-cell lung cancer patients.
+	Previous studies have shown that efficacy is correlated with the extent to which PD-L1 is expressed in the tumour, and pretreatedness.
+	There are few clinical trial designs that test co-primary efficacy and toxicity outcomes in phase II, and fewer still that incorporate baseline covariates. 
+	Thall, Nguyen and Estey present one such design but it has been scarcely used in trials.
+	Their model incorporates terms to conduct a dose-finding study.
+	This aspect is not required in PePS2 because a candidate dose has been widely tested. 
+	We introduce a novel simplification for phase II that focuses on testing efficacy and toxicity whilst adjusting for baseline covariates.
+	The method shares information across cohorts.
+	Simulations show it is far more efficient than analysing cohorts separately.
+	Using the design in PePS2 with 60 patients to test the treatment in six cohorts, we can expect error rates typical of those used in phase II trials.
+	However, we demonstrate that care must be used when specifying the models for efficacy and toxicity because more complex models require greater sample sizes for bias to be controlled.
+}
+
+\section{Introduction}
+There is a relative dearth of phase II clinical trial designs that incorporate patient covariates to assess efficacy and toxicity.
+Thall \textit{et al.}\cite{Thall2008} introduced a family of methods that perform dose-finding trials guided by binary efficacy and toxicity outcomes whilst accounting for baseline patient covariates.
+This enables dose recommendations tailored to individual patients.
+Our motivation is PePS2, a phase II trial of pembrolizumab in non-small-cell lung cancer patients of performance status 2.
+PePS2 is not a dose-finding trial. 
+Instead, it seeks to estimate the probabilities of efficacy and toxicity at a dose of pembrolizumab previously demonstrated to be safe and effective in a closely-related group of patients\cite{Garon2015}. 
+In this piece, we implement a simplification of Thall \textit{et al.}'s method.
+We remove the dose-finding components but retain aspects to study co-primary efficacy and toxicity outcomes that are associated with baseline covariates.
+
+
+\section{The PePS2 Trial}
+\label{s:bebop:peps2}
+PePS2 is a phase II trial of pembrolizumab in non-small-cell lung cancer (NSCLC) patients with Eastern Cooperative Oncology Group (ECOG) performance status 2 (PS2).
+A patient with PS2 is ambulatory and capable of taking care of themselves but typically too ill to work.
+Critically, it is doubtful that a PS2 patient could tolerate the toxic side effects of chemotherapy.
+
+The joint primary outcomes of the trial are (i) \textit{toxicity}, defined as the occurrence of a treatment-related dose delay or treatment discontinuation due to adverse event related to pembrolizumab; 
+and (ii) \textit{efficacy}, defined as the occurrence of stable disease (SD), partial response (PR) or complete response (CR) without prior progressive disease (PD) at or after the second post-baseline disease assessment by RECIST v1.1\cite{Eisenhauer2009}, scheduled to occur at week 18.
+The primary objective of the trial is to learn if the treatment is associated with sufficient disease control with acceptably low toxicity to use in performance status 2 patients.
+
+Pembrolizumab inhibits the programmed cell death 1 (PD-1) receptor via the programmed death-ligand 1 (PD-L1) protein.
+In a phase I study with 495 patients, Garon \textit{et al.}\cite{Garon2015} showed pembrolizumab to be active and tolerable in performance status 0 \& 1 patients.
+Overall, 19.4\% of patients had an objective response (PR or CR) and 9.5\% experienced an adverse event of grade 3 or higher.
+The rate of toxicity compares favourably to those typically seen in advanced NSCLC patients using chemotherapy \cite{Schiller2002, Borghaei2015}.
+We foresee no reason why these outcome rates should be materially dissimilar in PS2 patients. %, and hope to show that pembrolizumab is a viable treatment in this population.
+
+\begin{table}[h]
+	\centering
+	\caption{Objective response rates for the validation sample ($n=204$) of Garon \textit{et al.}\cite{Garon2015}.}
+	\label{tab:garon.efficacy}
+	\begin{tabular}{|c | c | c |}
+		\hline
+		PD-L1 Cohort & Criteria & Objective Response \%, (95\% CI) \\ 
+		\hline
+		Low & PD-L1 score $<$ 1\% & 10.7 (2.3, 28.2) \\ 
+		Medium & 1\% $\geq$ PD-L1 score $<$ 50\% & 16.5 (9.9, 25.1) \\ 
+		High & PD-L1 score $\geq$ 50\% & 45.2 (33.5, 57.3)\\
+		\hline
+	\end{tabular}
+\end{table}
+
+Garon \textit{et al.} introduce the PD-L1 proportion score biomarker, defined as the percentage of neoplastic cells with staining for membranous PD-L1. %, hitherto referred to as \textit{PD-L1 score}.
+Efficacy outcomes for the 204 patients in their validation group, allocated to cohorts based on PD-L1 score, are shown in Table \ref{tab:garon.efficacy}.
+Objective responses are observed in all cohorts and the rate of response increases with PD-L1 score.
+
+Based on this information, we expect PD-L1 score to be predictive of response in our PS2 population.
+Additionally, %we expect a mix of patients that have and have not previously received treatment for their cancer.
+in the Garon trial 24.8\% of treatment-naive (TN) patients achieved a response, whereas only 18.0\% did in the pre-treated (PT) patients.
+Pretreatment status represents a potentially small but important effect that should be considered when testing the treatment.
+We propose to investigate drug in the six cohorts formed by jointly stratifying by the three Garon PD-L1 classifications; and the PT or TN statuses. 
+Each patient in PePS2 will belong to exactly one of these six cohorts, as demonstrated in Table \ref{tab:bebop:cohorts}.
+%The trial aims to recruit over two years. 
+
+\begin{table}
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline Cohort & Treatment status & PD-L1 category & $x_i = (x_{1i}, x_{2i}, x_{3i})$ \\ 
+		\hline 
+		1 & Treatment naive & Low & (0,1,0) \\ 
+		2 & Treatment naive & Medium & (0,0,1) \\ 
+		3 & Treatment naive & High & (0,0,0) \\ 
+		4 & Pretreated & Low & (1,1,0) \\ 
+		5 & Pretreated & Medium & (1,0,1) \\ 
+		6 & Pretreated & High & (1,0,0) \\ 
+		\hline 
+	\end{tabular} 
+	\caption{Cohorts used in the PePS2 trial. $x_i$ shows the predictive variable vector.}
+	\label{tab:bebop:cohorts}
+\end{table}
+
+In phase II, there is strong motivation to deliver findings quickly to inform the next study phase.
+Recruitment of approximately 60 PS2 patients within one year would be feasible but accrual materially higher would be unlikely. 
+Given the relative dearth of treatment alternatives, we seek to offer the trial to all PS2 patients and not stratify accrual.
+Pembrolizumab has not been investigated in PS2 patients so the clinical scenario requires a trial design that tests efficacy and toxicity.
+Given the evidence that PD-L1 and pretreatedness are associated with response, it is highly desirable to use a trial design that incorporates this predictive information.
+We describe our search for a clinical trial design that achieves these objectives.
+
+\section{Review of Available Experimental Designs}
+We sought trial designs that use explanatory variables to study joint primary outcomes efficacy and toxicity.
+Using PubMed, we searched for publications under the MeSH major topic `clinical trials' that are categorised with the MeSH Terms `Drug-Related Side Effects and Adverse Reactions' and `Models, Statistical'.
+
+Several manuscripts were identified detailing dose-finding designs that scrutinise both efficacy and toxicity\cite{Braun2002, Thall2004, Zhang2006}.
+Each of these presents a model that could be adapted to our purpose.
+Very few phase II designs with co-primary outcomes were identified.
+Bryant \& Day\cite{Bryant1995} take threshold values for required rates of efficacy and toxicity and return the threshold number of events to approve the treatment.
+For given levels of significance and power, the threshold counts define the optimal trial of competing efficacy and toxicity outcomes.
+The design implicitly assumes that the patient population is homogeneous and does not use covariates.
+Parallel Bryant \& Day designs in our cohorts would require a prohibitively high sample size.
+
+Finally, Thall, Nguyen \& Estey (TNE)\cite{Thall2008} introduce an extension of EffTox\cite{Thall2004} that adds baseline patient covariates to analyse co-primary efficacy and toxicity at different doses.
+The objective of their Bayesian design is to recommend a personal dose of an experimental agent, after adjusting for baseline covariates.
+Their design has enjoyed limited use.
+On 05-Dec-2017, we identified 16 manuscripts listed on PubMed that cite Thall \textit{et al.}\cite{Thall2008}, including 10 concerning further dose-finding methodology.
+None sought to adapt the design to the typical phase II task of investigating efficacy and toxicity at a single dose.
+%Three papers were methodological reviews citing TNE as a potential method and another a systematic review of thrombolysis for acute ischaemic stroke.
+Five papers were reviews.
+Konopleva, Thall \textit{et al.}\cite{Konopleva2015} use TNE in a dose-finding study of PR104 in relapsed or refractory AML and acute lymphoblastic leukaemia (ALL).
+%The final paper\cite{Dohner2017} was an expert panel recommendation on the diagnosis and management of AML.
+This literature search suggests that TNE's method has only been used in blood cancer and only for the purposes of dose-finding.
+We found no suggestion that the method had been adapted for the non-dose-finding context.
+We introduce a simplification of TNE for use in phase II.
+
+\section{Assessing efficacy and toxicity and adjusting for covariates}
+\label{s:bebop:alternative}
+In this section, we describe novel adaptations to Thall \textit{et al.}\cite{Thall2008} to derive a model that studies associated co-primary efficacy and toxicity outcomes, adjusted for baseline covariates. 
+We call this design P2TNE, for \textit{Phase II Thall, Nguyen \& Estey}.
+
+Where prior information is available on outcomes under historic treatments, Thall \textit{et al.} present the general probability model
+\begin{equation}
+\label{eqn:bebop:tne}
+\logit{\pi_k}(\tau, \boldsymbol{Z}, \boldsymbol{\theta}) = \boldsymbol{\beta}_k \boldsymbol{Z} + \sum_{j=1}^m (\mu_{k, j} + \xi_{k, j} \boldsymbol{Z}) \mathbb{I}(\tau = \tau_j) + \left\{ g_k(x, \boldsymbol{\alpha}_k) + \boldsymbol{\gamma_k} \boldsymbol{Z} \right\} \mathbb{I}(\tau = x)
+\end{equation}
+for $k = E, T$ denoting efficacy and toxicity, respectively.
+Here, $\tau$ is the given dose; $\boldsymbol{Z}$ is a vector of covariates; $\boldsymbol{\theta}$ is the vector of model parameters to be estimated; $\boldsymbol{\beta}_k$ is the vector of main covariate effects; $\mu_{k,j}$ is a vector of historic main treatment effects for $m$ informative historic treatments; $\boldsymbol{\xi}_{k, j}$ is vector of interactions between historic treatment $j$ and $\boldsymbol{Z}$;  $\mathbb{I}(A)$ is the indicator function, taking value 1 if $A$ is true; $g_k(x, \boldsymbol{\alpha}_k)$ characterises the main dose effects; $\boldsymbol{\gamma}_{k}$ is a vector of dose-covariate interactions.
+
+The authors introduce methods for associating the marginal efficacy and toxicity models, and in their example reuse the Gumbel model deployed in EffTox\cite{Thall2004}:
+
+\begin{multline}
+\label{eqn:et:full_model}
+\pi_{a,b}(\pi_E, \pi_T) = (\pi_E)^a (1-\pi_E)^{1-a} (\pi_T)^b (1-\pi_T)^{1-b} \\
++ (-1)^{a+b} (\pi_E) (1-\pi_E) (\pi_T) (1-\pi_T) \frac{e^\psi-1}{e^\psi+1}
+\end{multline}
+where $\psi$ is an association parameter and $a, b$ take the value 1 when efficacy and toxicity occur respectively in a given patient, else 0.
+
+We simplify this in P2TNE by removing dose-effect terms $(g(.) = \gamma = 0)$ and considering historic outcomes only for the treatment under investigation ($m = 1$).
+
+Let $x_i$ denote the covariate data as specified in Table \ref{tab:bebop:cohorts}, and $a_i, b_i$ the occurrence of efficacy and toxicity in patient $i$.
+For trial data
+\begin{equation}
+\boldsymbol{X} = \{(x_1, a_1, b_1), ..., (x_n, a_n, b_n) \}
+\end{equation} 
+the aggregate likelihood function is
+\begin{equation}
+\mathcal{L}(\boldsymbol{X}, \boldsymbol{\theta}) = \prod_{i=1}^n \pi_{a_i, b_i} (x_i, \boldsymbol{\theta})
+\end{equation}
+Let $\boldsymbol{\theta}$ have prior distribution function $f(\boldsymbol{\theta})$.
+For patients with covariate data $x$, the posterior expectation of the probability of efficacy under the treatment is 
+\begin{equation}
+\label{eqn:bebop:post.eff}
+\mathbb{E}(\pi_E(x, \boldsymbol{\theta}) | \boldsymbol{X}) = \frac{\int \pi_E(x, \boldsymbol{\theta}) f(\boldsymbol{\theta})  \mathcal{L}(\boldsymbol{X}, \boldsymbol{\theta}) d\boldsymbol{\theta}}{\int f(\boldsymbol{\theta})  \mathcal{L}(\boldsymbol{X}, \boldsymbol{\theta}) d\boldsymbol{\theta}}
+\end{equation}
+and the posterior probability that the rate of efficacy exceeds some threshold $\pi_E^*$ is 
+\begin{equation}
+\label{eqn:bebop:post.acc.eff}
+\Pr(\pi_E(x, \boldsymbol{\theta}) > \pi_E^*| \boldsymbol{X}) = \frac{\int \mathbb{I}(\pi_E(x, \boldsymbol{\theta}) > \pi_E^*) f(\boldsymbol{\theta})  \mathcal{L}(\boldsymbol{X}, \boldsymbol{\theta}) d\boldsymbol{\theta}}{\int f(\boldsymbol{\theta})  \mathcal{L}(\boldsymbol{X}, \boldsymbol{\theta}) d\boldsymbol{\theta}}
+\end{equation}
+
+The treatment is acceptable in patients with covariates $x$ if
+\begin{equation}
+\label{eqn:bebop:acceptance}
+\begin{split}
+\Pr(\pi_E(x, \theta) > \pi_E^* | \boldsymbol{X}) > p_E \\
+\Pr(\pi_T(x, \theta) < \pi_T^* | \boldsymbol{X}) > p_T
+\end{split}
+\end{equation}
+where $\pi_E^*, p_E$, $\pi_T^*$ and $p_T$ are chosen by the trialists.
+Our lead clinician selected the values $\pi_E^* = 0.1$ and $\pi_T^* = 0.3$ in all cohorts.
+We identified that $p_E = 0.7$ and $p_T = 0.9$ gave acceptable performance in indicative scenarios in our simulation study described below.
+Our chosen models for marginal efficacy and toxicity are:
+\begin{align}
+	\label{eqn:bebop:logit}
+	\begin{split}
+		\logit \pi_E(x_i, \boldsymbol{\theta}) & = \alpha + \beta x_{1i} + \gamma x_{2i} + \zeta x_{3i} \\
+		\logit \pi_T(x_i, \boldsymbol{\theta}) & = \lambda
+	\end{split}
+\end{align}
+%and these were chosen to reflect the outcomes reported in Garon \textit{et al.}\cite{Garon2015}.
+, associated by (\ref{eqn:et:full_model}).
+The four parameters in the efficacy model assume the log-odds for PT patients in each PD-L1 category are a common linear shift of those in TN patients, an assumption we call \textit{piecewise parallelism}.
+Furthermore, the rate of toxicity is assumed uniform across groups, justified by data reported in Garon \textit{et al.} and Herbst \textit{et al.}\cite{Herbst2016}.
+We analyse models that relax these assumptions.
+
+\section{Simulation study}
+In a simulation study, we show that our model achieves error rates typical of phase II clinical trials in all cohorts in indicative scenarios where efficacy and toxicity rates are uniform across cohorts.
+Furthermore, we show that performance is very strong in heterogeneous scenarios inspired by outcomes from Garon\cite{Garon2015} and Herbst\cite{Herbst2016}, far surpassing that of beta-binomial conjugate analyses conducted in cohorts individually. 
+
+Choice of priors is contentious in clinical trials.
+We simulated performance under diffuse, sceptical, and informative priors. 
+Bias, inferred by coverage of posterior credible intervals, was highest under the diffuse priors, suggesting benefit to using priors that provide some central tendency that truly reflect investigators' beliefs.
+
+Our model choices (\ref{eqn:bebop:logit}) imply fairly strong assumptions.
+We analyse several model embellishments to infer the cost in required sample size of greater model freedom.
+
+We relax the piecewise parallel assumption by adding interactions terms to the efficacy model (\ref{eqn:bebop:logit}).
+Using this model in the scenarios described above, the probability of approval decreases and bias increases.
+We find that 20 - 40 extra patients are required to restore performance to that previously observed and eradicate bias.
+
+Furthermore, we relax the assumption that toxicity is uniform over groups by adding terms to the toxicity model.
+Again, the extra model freedoms without increases in sample size yield lower approval probabilities and increased bias.
+Bias is a particular problem in the toxicity model in scenarios when the expected event rate is low.
+For instance, a four-parameter toxicity model suffers from material bias estimating uniform 10\% toxicity rates in all cohorts, particularly in the groups with smallest expected size.
+This model is unbiased when the assumed true toxicity rate is 30\%.
+This is notable because the published data\cite{Garon2015, Herbst2016} suggest low toxicity.
+This model successfully identifies differential toxicity associated with covariates.
+
+Lastly, simulations reveal that model performance is seemingly not affected by efficacy and toxicity events being strongly associated. 
+We investigated a model variant that assumes independent events by setting $\psi = 0$ in (\ref{eqn:et:full_model}).
+The probability of treatment approval was practically unchanged.
+This is perhaps not surprising when we consider that $\psi$ is not present in the marginal models for $\pi_E$ or $\pi_T$.
+The association parameter would aid inference if outcomes were partly observed so that, for instance, the toxicity outcome is known but efficacy is unknown.
+
+
+\section{Further work and availability of materials}
+Statisticians are aware of the information loss that arises from dichotomising continuous variables.
+We use the PD-L1 categorisation published by Garon \textit{et al.}\cite{Garon2015}.
+In ongoing work, we use the underlying continuous score. 
+
+Models are implemented in Stan\cite{Carpenter2016} and all materials are available on GitHub at:\\
+https://github.com/brockk/bebop
+
+\newpage
+%\input{YOUR_references}
+\printbibliography[heading=bibintoc]
+
+\end{document}

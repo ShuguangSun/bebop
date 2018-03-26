@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: PePS2_BAYSM.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: PePS2_BAYSM-blx.bib
+Database file #2: library.bib
+Biblatex version: 3.3
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 13 entries,
+            6256 wiz_defined-function locations,
+            1328 strings with 36807 characters,
+and the built_in function-call counts, 197365 in all, are:
+= -- 16910
+> -- 2219
+< -- 314
++ -- 6900
+- -- 1167
+* -- 16164
+:= -- 25466
+add.period$ -- 0
+call.type$ -- 13
+change.case$ -- 132
+chr.to.int$ -- 30
+cite$ -- 24
+duplicate$ -- 21323
+empty$ -- 16013
+format.name$ -- 2103
+if$ -- 36696
+int.to.chr$ -- 0
+int.to.str$ -- 25
+missing$ -- 0
+newline$ -- 1266
+num.names$ -- 507
+pop$ -- 5425
+preamble$ -- 1
+purify$ -- 432
+quote$ -- 0
+skip$ -- 2552
+stack$ -- 0
+substring$ -- 32510
+swap$ -- 3806
+text.length$ -- 452
+text.prefix$ -- 14
+top$ -- 1
+type$ -- 430
+warning$ -- 0
+while$ -- 3216
+width$ -- 0
+write$ -- 1254

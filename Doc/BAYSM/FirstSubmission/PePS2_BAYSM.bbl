@@ -1,0 +1,1556 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nty/global/}
+  \entry{Borghaei2015}{article}{}
+    \name{author}{28}{}{%
+      {{hash=BH}{%
+         family={Borghaei},
+         familyi={B\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PAL}{%
+         family={Paz-Ares},
+         familyi={P\bibinitperiod-A\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HL}{%
+         family={Horn},
+         familyi={H\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Spigel},
+         familyi={S\bibinitperiod},
+         given={D.R.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Steins},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Ready},
+         familyi={R\bibinitperiod},
+         given={N.E.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chow},
+         familyi={C\bibinitperiod},
+         given={L.Q.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Vokes},
+         familyi={V\bibinitperiod},
+         given={E.E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Felip},
+         familyi={F\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HE}{%
+         family={Holgado},
+         familyi={H\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Barlesi},
+         familyi={B\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kohlh{\"{a}}ufl},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AO}{%
+         family={Arrieta},
+         familyi={A\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Burgio},
+         familyi={B\bibinitperiod},
+         given={M.A.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fayette},
+         familyi={F\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lena},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Poddubskaya},
+         familyi={P\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gerber},
+         familyi={G\bibinitperiod},
+         given={D.E.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gettinger},
+         familyi={G\bibinitperiod},
+         given={S.N.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rudin},
+         familyi={R\bibinitperiod},
+         given={C.M.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Rizvi},
+         familyi={R\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Crin{\`{o}}},
+         familyi={C\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={{G.R. Blumenschein}},
+         familyi={G\bibinitperiod},
+         given={Jr.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Antonia},
+         familyi={A\bibinitperiod},
+         given={S.J.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Dorange},
+         familyi={D\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Harbison},
+         familyi={H\bibinitperiod},
+         given={C.T.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FFG}{%
+         family={Finckenstein},
+         familyi={F\bibinitperiod},
+         given={F.\bibnamedelima Graf},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Brahmer},
+         familyi={B\bibinitperiod},
+         given={J.R.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{NSCLC,Nivolumab,PD1}
+    \strng{namehash}{BH+1}
+  \strng{fullhash}{BHPALHLSDSMRNCLVEFEHEBFKMAOBMFJLHPEGDGSRCRNCLGJASDCHCFFGBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Background Patients with advanced squamous-cell non-small-cell lung cancer
+  (NSCLC) who have disease progression during or after first-line chemotherapy
+  have limited treatment options. This randomized, open-label, international,
+  phase 3 study evaluated the efficacy and safety of nivolumab, a fully human
+  IgG4 programmed death 1 (PD-1) immune-checkpoint-inhibitor antibody, as
+  compared with docetaxel in this patient population. Methods We randomly
+  assigned 272 patients to receive nivolumab, at a dose of 3 mg per kilogram of
+  body weight every 2 weeks, or docetaxel, at a dose of 75 mg per square meter
+  of body-surface area every 3 weeks. The primary end point was overall
+  survival. Results The median overall survival was 9.2 months (95{\%}
+  confidence interval [CI], 7.3 to 13.3) with nivolumab versus 6.0 months
+  (95{\%} CI, 5.1 to 7.3) with docetaxel. The risk of death was 41{\%} lower
+  with nivolumab than with docetaxel (hazard ratio, 0.59; 95{\%} CI, 0.44 to
+  0.79; P{\textless}0.001). At 1 year, the overall survival rate was 42{\%}
+  (95{\%} CI, 34 to 50) with nivolumab versus 24{\%} (95{\%} CI, 17 to 31) with
+  docetaxel. The response rate was 20{\%} with nivolumab versus 9{\%} with
+  docetaxel (P=0.008). The median progression-free survival was 3.5 months with
+  nivolumab versus 2.8 months with docetaxel (hazard ratio for death or disease
+  progression, 0.62; 95{\%} CI, 0.47 to 0.81; P{\textless}0.001). The
+  expression of the PD-1 ligand (PD-L1) was neither prognostic nor predictive
+  of benefit. Treatment-related adverse events of grade 3 or 4 were reported in
+  7{\%} of the patients in the nivolumab group as compared with 55{\%} of those
+  in the docetaxel group. Conclusions Among patients with advanced, previously
+  treated squamous-cell NSCLC, overall survival, response rate, and
+  progression-free survival were significantly better with nivolumab than with
+  docetaxel, regardless of PD-L1 expression level. (Funded by Bristol-Myers
+  Squibb; CheckMate 017 ClinicalTrials.gov number, NCT01642004 .).%
+    }
+    \verb{doi}
+    \verb 10.1056/NEJMoa1504627
+    \endverb
+    \field{isbn}{0028-4793}
+    \field{issn}{1533-4406}
+    \field{pages}{1\bibrangedash 13}
+    \field{title}{{Nivolumab versus Docetaxel in Advanced Squamous-Cell
+  Non-Small-Cell Lung Cancer.}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/26028407
+    \endverb
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/Borgh
+    \verb aei et al. - 2015 - Nivolumab versus Docetaxel in Advanced Squamous-C
+    \verb ell Non-Small-Cell Lung Cancer.pdf:pdf
+    \endverb
+    \field{journaltitle}{The New England journal of medicine}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Braun2002}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BTM}{%
+         family={Braun},
+         familyi={B\bibinitperiod},
+         given={Thomas\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Bayesian inference,Bone marrow transplant,CRM,Clinical
+  trial,Correlated binary data,DoseFinding,EfficacyToxicity}
+    \strng{namehash}{BTM1}
+    \strng{fullhash}{BTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Traditional phase I studies find the therapeutic dose of an investigational
+  drug based solely on toxicity and without regard to the drug's efficacy. We
+  propose extending the continual reassessment method (CRM) to a bivariate
+  trial design in which the maximum tolerated dose is based jointly on both
+  toxicity and disease progression. We call our study design bCRM, for
+  bivariate CRM, which we apply to a study of bone marrow patients seeking to
+  find the optimal time after bone marrow transplant at which to taper immune
+  suppression and eventually begin donor leukocyte infusions. We demonstrate
+  through simulation that bCRM has excellent operating characteristics and
+  compare the performance of bCRM in a bone marrow transplantation study to
+  designs proposed by previous investigators. We also attempt to provide some
+  direction to future investigators with regard to plausible models and
+  distributions to use with a bivariate study design. {\textcopyright} 2002
+  Elsevier Science Inc. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0197-2456(01)00205-7
+    \endverb
+    \field{isbn}{0197-2456 (Print)$\backslash$r0197-2456 (Linking)}
+    \field{issn}{01972456}
+    \field{number}{3}
+    \field{pages}{240\bibrangedash 256}
+    \field{title}{{The bivariate continual reassessment method: Extending the
+  CRM to phase I trials of two competing outcomes}}
+    \field{volume}{23}
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/Braun
+    \verb  - 2002 - The bivariate continual reassessment method Extending the C
+    \verb RM to phase I trials of two competing outcomes.pdf:pdf
+    \endverb
+    \field{journaltitle}{Controlled Clinical Trials}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Bryant1995}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BJ}{%
+         family={Bryant},
+         familyi={B\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=DR}{%
+         family={Day},
+         familyi={D\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+    }
+    \keyw{EfficacyToxicity,early stopping,ii trials,toxicity considerations in
+  phase,two-stage clinical trials}
+    \strng{namehash}{BJDR1}
+    \strng{fullhash}{BJDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Phase II study designs are proposed that evaluate both clinical response
+  and toxicity, and that are similar in structure to Simon's two-stage designs.
+  Sample sizes and decision criteria are chosen to minimize the maximum
+  expected accrual, given that the treatment is unacceptable either in terms of
+  clinical response or toxicity. This is achieved subject to control of error
+  rates, either uniformly over all possible correlation structures linking
+  response and toxicity, or alternatively, under an assumption of independence
+  between response and toxicity. In the latter case, bounds on the error rates
+  show that effective control is still uniformly achieved even if the
+  independence assumption is relaxed.%
+    }
+    \verb{doi}
+    \verb 10.2307/2533268
+    \endverb
+    \field{issn}{0006-341X}
+    \field{number}{4}
+    \field{pages}{1372\bibrangedash 1383}
+    \field{title}{{Incorporating toxicity considerations into the design of
+  two-stage phase II clinical trials.}}
+    \field{volume}{51}
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/Bryan
+    \verb t, Day - 1995 - Incorporating toxicity considerations into the design
+    \verb  of two-stage phase II clinical trials.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biometrics}
+    \field{year}{1995}
+  \endentry
+
+  \entry{Carpenter2016}{article}{}
+    \name{author}{9}{}{%
+      {{hash=CB}{%
+         family={Carpenter},
+         familyi={C\bibinitperiod},
+         given={Bob},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gelman},
+         familyi={G\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hoffman},
+         familyi={H\bibinitperiod},
+         given={Matt},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Goodrich},
+         familyi={G\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Betancourt},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BMA}{%
+         family={Brubaker},
+         familyi={B\bibinitperiod},
+         given={Marcus\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Riddell},
+         familyi={R\bibinitperiod},
+         given={Allen},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Stan}
+    \strng{namehash}{CB+1}
+    \strng{fullhash}{CBGAHMLDGBBMBMALPRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Stan is a probabilistic programming language for specifying statistical
+  models. A Stan program imperatively defines a log probability function over
+  parameters conditioned on specified data and constants. As of version 2.2.0,
+  Stan provides full Bayesian inference for continuous-variable models through
+  Markov chain Monte Carlo methods such as the No-U-Turn sampler, an adaptive
+  form of Hamiltonian Monte Carlo sampling. Penalized maximum likelihood
+  estimates are calculated using optimization methods such as the
+  Broyden-Fletcher-Goldfarb-Shanno algorithm. Stan is also a platform for
+  computing log densities and their gradients and Hessians, which can be used
+  in alternative algorithms such as variational Bayes, expectation propa-
+  gation, and marginal inference using approximate integration. To this end,
+  Stan is set up so that the densities, gradients, and Hessians, along with
+  intermediate quantities of the algorithm such as acceptance probabilities,
+  are easily accessible. Stan can be called from the command line, through R
+  using the RStan package, or through Python using the PyStan package. All
+  three interfaces support sampling or optimization-based inference and
+  analysis, and RStan and PyStan also provide access to log probabilities,
+  gradients, Hessians, and data I/O.%
+    }
+    \field{number}{Ii}
+    \field{title}{{Stan: A Probabilistic Programming Language}}
+    \field{volume}{VV}
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/stan-
+    \verb resubmit-JSS1293.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Statistical Software}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Eisenhauer2009}{article}{}
+    \name{author}{16}{}{%
+      {{hash=EEa}{%
+         family={Eisenhauer},
+         familyi={E\bibinitperiod},
+         given={E.\bibnamedelima a.},
+         giveni={E\bibinitperiod\bibinitdelim a\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Therasse},
+         familyi={T\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bogaerts},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SLH}{%
+         family={Schwartz},
+         familyi={S\bibinitperiod},
+         given={L.\bibnamedelima H.},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Sargent},
+         familyi={S\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FR}{%
+         family={Ford},
+         familyi={F\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dancey},
+         familyi={D\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Arbuck},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gwyther},
+         familyi={G\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mooney},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RL}{%
+         family={Rubinstein},
+         familyi={R\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Shankar},
+         familyi={S\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Dodd},
+         familyi={D\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kaplan},
+         familyi={K\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lacombe},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Verweij},
+         familyi={V\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Ltd}%
+    }
+    \keyw{Guidelines,Response criteria,Solid tumours}
+    \strng{namehash}{EEa+1}
+    \strng{fullhash}{EEaTPBJSLHSDFRDJASGSMMRLSLDLKRLDVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    Background: Assessment of the change in tumour burden is an important
+  feature of the clinical evaluation of cancer therapeutics: both tumour
+  shrinkage (objective response) and disease progression are useful endpoints
+  in clinical trials. Since RECIST was published in 2000, many investigators,
+  cooperative groups, industry and government authorities have adopted these
+  criteria in the assessment of treatment outcomes. However, a number of
+  questions and issues have arisen which have led to the development of a
+  revised RECIST guideline (version 1.1). Evidence for changes, summarised in
+  separate papers in this special issue, has come from assessment of a large
+  data warehouse ({\textgreater}6500 patients), simulation studies and
+  literature reviews. Highlights of revised RECIST 1.1: Major changes include:
+  Number of lesions to be assessed: based on evidence from numerous trial
+  databases merged into a data warehouse for analysis purposes, the number of
+  lesions required to assess tumour burden for response determination has been
+  reduced from a maximum of 10 to a maximum of five total (and from five to two
+  per organ, maximum). Assessment of pathological lymph nodes is now
+  incorporated: nodes with a short axis of ≥15 mm are considered measurable
+  and assessable as target lesions. The short axis measurement should be
+  included in the sum of lesions in calculation of tumour response. Nodes that
+  shrink to {\textless}10 mm short axis are considered normal. Confirmation of
+  response is required for trials with response primary endpoint but is no
+  longer required in randomised studies since the control arm serves as
+  appropriate means of interpretation of data. Disease progression is clarified
+  in several aspects: in addition to the previous definition of progression in
+  target disease of 20{\%} increase in sum, a 5 mm absolute increase is now
+  required as well to guard against over calling PD when the total sum is very
+  small. Furthermore, there is guidance offered on what constitutes
+  'unequivocal progression' of non-measurable/non-target disease, a source of
+  confusion in the original RECIST guideline. Finally, a section on detection
+  of new lesions, including the interpretation of FDG-PET scan assessment is
+  included. Imaging guidance: the revised RECIST includes a new imaging
+  appendix with updated recommendations on the optimal anatomical assessment of
+  lesions. Future work: A key question considered by the RECIST Working Group
+  in developing RECIST 1.1 was whether it was appropriate to move from anatomic
+  unidimensional assessment of tumour burden to either volumetric anatomical
+  assessment or to functional assessment with PET or MRI. It was concluded
+  that, at present, there is not sufficient standardisation or evidence to
+  abandon anatomical assessment of tumour burden. The only exception to this is
+  in the use of FDG-PET imaging as an adjunct to determination of progression.
+  As is detailed in the final paper in this special issue, the use of these
+  promising newer approaches requires appropriate clinical validation studies.
+  {\textcopyright} 2008 Elsevier Ltd.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.ejca.2008.10.026
+    \endverb
+    \field{isbn}{1879-0852 (Electronic)}
+    \field{issn}{09598049}
+    \field{number}{2}
+    \field{pages}{228\bibrangedash 247}
+    \field{title}{{New response evaluation criteria in solid tumours: Revised
+  RECIST guideline (version 1.1)}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.ejca.2008.10.026
+    \endverb
+    \field{volume}{45}
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/Eisen
+    \verb hauer et al. - 2009 - New response evaluation criteria in solid tumou
+    \verb rs Revised RECIST guideline (version 1.1).pdf:pdf
+    \endverb
+    \field{journaltitle}{European Journal of Cancer}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Garon2015}{article}{}
+    \name{author}{28}{}{%
+      {{hash=GEB}{%
+         family={Garon},
+         familyi={G\bibinitperiod},
+         given={Edward\bibnamedelima B},
+         giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=RNa}{%
+         family={Rizvi},
+         familyi={R\bibinitperiod},
+         given={Naiyer\bibnamedelima a},
+         giveni={N\bibinitperiod\bibinitdelim a\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Hui},
+         familyi={H\bibinitperiod},
+         given={Rina},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Leighl},
+         familyi={L\bibinitperiod},
+         given={Natasha},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BAS}{%
+         family={Balmanoukian},
+         familyi={B\bibinitperiod},
+         given={Ani\bibnamedelima S},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=EJP}{%
+         family={Eder},
+         familyi={E\bibinitperiod},
+         given={Joseph\bibnamedelima Paul},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Patnaik},
+         familyi={P\bibinitperiod},
+         given={Amita},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Aggarwal},
+         familyi={A\bibinitperiod},
+         given={Charu},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gubens},
+         familyi={G\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HL}{%
+         family={Horn},
+         familyi={H\bibinitperiod},
+         given={Leora},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Carcereny},
+         familyi={C\bibinitperiod},
+         given={Enric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AMj}{%
+         family={Ahn},
+         familyi={A\bibinitperiod},
+         given={Myung-ju},
+         giveni={M\bibinitperiod-j\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Felip},
+         familyi={F\bibinitperiod},
+         given={Enriqueta},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LJs}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Jong-seok},
+         giveni={J\bibinitperiod-s\bibinitperiod},
+      }}%
+      {{hash=HMD}{%
+         family={Hellmann},
+         familyi={H\bibinitperiod},
+         given={Matthew\bibnamedelima D},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=HO}{%
+         family={Hamid},
+         familyi={H\bibinitperiod},
+         given={Omid},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GJW}{%
+         family={Goldman},
+         familyi={G\bibinitperiod},
+         given={Jonathan\bibnamedelima W},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=SJc}{%
+         family={Soria},
+         familyi={S\bibinitperiod},
+         given={Jean-charles},
+         giveni={J\bibinitperiod-c\bibinitperiod},
+      }}%
+      {{hash=DFM}{%
+         family={Dolled-Filhart},
+         familyi={D\bibinitperiod-F\bibinitperiod},
+         given={Marisa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RRZ}{%
+         family={Rutledge},
+         familyi={R\bibinitperiod},
+         given={Ruth\bibnamedelima Z},
+         giveni={R\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LJK}{%
+         family={Lunceford},
+         familyi={L\bibinitperiod},
+         given={Jared\bibnamedelima K},
+         giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Rangwala},
+         familyi={R\bibinitperiod},
+         given={Reshma},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LGM}{%
+         family={Lubiniecki},
+         familyi={L\bibinitperiod},
+         given={Gregory\bibnamedelima M},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Roach},
+         familyi={R\bibinitperiod},
+         given={Charlotte},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EK}{%
+         family={Emancipator},
+         familyi={E\bibinitperiod},
+         given={Kenneth},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Gandhi},
+         familyi={G\bibinitperiod},
+         given={Leena},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=K}{%
+         family={{KEYNOTE-001 Investigators}},
+         familyi={K\bibinitperiod},
+      }}%
+    }
+    \keyw{NSCLC,PD1,Pembrolizumab}
+    \strng{namehash}{GEB+1}
+  \strng{fullhash}{GEBRNaHRLNBASEJPPAACGMHLCEAMjFELJsHMDHOGJWSJcDFMRRZZJLJKRRLGMRCEKGLK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    BACKGROUND We assessed the efficacy and safety of programmed cell death 1
+  (PD-1) inhibition with pembrolizumab in patients with advanced non-small-cell
+  lung cancer enrolled in a phase 1 study. We also sought to define and
+  validate an expression level of the PD-1 ligand 1 (PD-L1) that is associated
+  with the likelihood of clinical benefit. METHODS We assigned 495 patients
+  receiving pembrolizumab (at a dose of either 2 mg or 10 mg per kilogram of
+  body weight every 3 weeks or 10 mg per kilogram every 2 weeks) to either a
+  training group (182 patients) or a validation group (313 patients). We
+  assessed PD-L1 expression in tumor samples using immunohistochemical
+  analysis, with results reported as the percentage of neoplastic cells with
+  staining for membranous PD-L1 (proportion score). Response was assessed every
+  9 weeks by central review. RESULTS Common side effects that were attributed
+  to pembrolizumab were fatigue, pruritus, and decreased appetite, with no
+  clear difference according to dose or schedule. Among all the patients, the
+  objective response rate was 19.4{\%}, and the median duration of response was
+  12.5 months. The median duration of progression-free survival was 3.7 months,
+  and the median duration of overall survival was 12.0 months. PD-L1 expression
+  in at least 50{\%} of tumor cells was selected as the cutoff from the
+  training group. Among patients with a proportion score of at least 50{\%} in
+  the validation group, the response rate was 45.2{\%}. Among all the patients
+  with a proportion score of at least 50{\%}, median progression-free survival
+  was 6.3 months; median overall survival was not reached. CONCLUSIONS
+  Pembrolizumab had an acceptable side-effect profile and showed antitumor
+  activity in patients with advanced non-small-cell lung cancer. PD-L1
+  expression in at least 50{\%} of tumor cells correlated with improved
+  efficacy of pembrolizumab. (Funded by Merck; KEYNOTE-001 ClinicalTrials.gov
+  number, NCT01295827.).%
+    }
+    \verb{doi}
+    \verb 10.1056/NEJMoa1501824
+    \endverb
+    \field{isbn}{1533-4406 (Electronic) 0028-4793 (Linking)}
+    \field{issn}{1533-4406}
+    \field{number}{21}
+    \field{pages}{2018\bibrangedash 28}
+    \field{title}{{Pembrolizumab for the treatment of non-small-cell lung
+  cancer.}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/25891174
+    \endverb
+    \field{volume}{372}
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/Garon
+    \verb  et al. - 2015 - Pembrolizumab for the treatment of non-small-cell lu
+    \verb ng cancer(2).pdf:pdf
+    \endverb
+    \field{journaltitle}{The New England journal of medicine}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Herbst2016}{article}{}
+    \name{author}{19}{}{%
+      {{hash=HRS}{%
+         family={Herbst},
+         familyi={H\bibinitperiod},
+         given={Roy\bibnamedelima S.},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Baas},
+         familyi={B\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KDW}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Dong\bibnamedelima Wan},
+         giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Felip},
+         familyi={F\bibinitperiod},
+         given={Enriqueta},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PGJL}{%
+         family={P{\'{e}}rez-Gracia},
+         familyi={P\bibinitperiod-G\bibinitperiod},
+         given={Jos{\'{e}}\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HJY}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Ji\bibnamedelima Youn},
+         giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Molina},
+         familyi={M\bibinitperiod},
+         given={Julian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KJH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Joo\bibnamedelima Hang},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=ACD}{%
+         family={Arvis},
+         familyi={A\bibinitperiod},
+         given={Catherine\bibnamedelima Dubos},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=AMJ}{%
+         family={Ahn},
+         familyi={A\bibinitperiod},
+         given={Myung\bibnamedelima Ju},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Majem},
+         familyi={M\bibinitperiod},
+         given={Margarita},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FMJ}{%
+         family={Fidler},
+         familyi={F\bibinitperiod},
+         given={Mary\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={{De Castro}},
+         familyi={D\bibinitperiod},
+         given={Gilberto},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Garrido},
+         familyi={G\bibinitperiod},
+         given={Marcelo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LGM}{%
+         family={Lubiniecki},
+         familyi={L\bibinitperiod},
+         given={Gregory\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Shentu},
+         familyi={S\bibinitperiod},
+         given={Yue},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=IE}{%
+         family={Im},
+         familyi={I\bibinitperiod},
+         given={Ellie},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DFM}{%
+         family={Dolled-Filhart},
+         familyi={D\bibinitperiod-F\bibinitperiod},
+         given={Marisa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GEB}{%
+         family={Garon},
+         familyi={G\bibinitperiod},
+         given={Edward\bibnamedelima B.},
+         giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \keyw{NSCLC,PD1,Pembrolizumab}
+    \strng{namehash}{HRS+1}
+    \strng{fullhash}{HRSBPKDWFEPGJLHJYMJKJHACDAMJMMFMJDGGMLGMSYIEDFMGEB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Background Despite recent advances in the treatment of advanced
+  non-small-cell lung cancer, there remains a need for effective treatments for
+  progressive disease. We assessed the efficacy of pembrolizumab for patients
+  with previously treated, PD-L1-positive, advanced non-small-cell lung cancer.
+  Methods We did this randomised, open-label, phase 2/3 study at 202 academic
+  medical centres in 24 countries. Patients with previously treated
+  non-small-cell lung cancer with PD-L1 expression on at least 1{\%} of tumour
+  cells were randomly assigned (1:1:1) in blocks of six per stratum with an
+  interactive voice-response system to receive pembrolizumab 2 mg/kg,
+  pembrolizumab 10 mg/kg, or docetaxel 75 mg/m2 every 3 weeks. The primary
+  endpoints were overall survival and progression-free survival both in the
+  total population and in patients with PD-L1 expression on at least 50{\%} of
+  tumour cells. We used a threshold for significance of
+  p{\textless}0{\textperiodcentered}00825 (one-sided) for the analysis of
+  overall survival and a threshold of p{\textless}0{\textperiodcentered}001 for
+  progression-free survival. This trial is registered at ClinicalTrials.gov,
+  number NCT01905657. Findings Between Aug 28, 2013, and Feb 27, 2015, we
+  enrolled 1034 patients: 345 allocated to pembrolizumab 2 mg/kg, 346 allocated
+  to pembrolizumab 10 mg/kg, and 343 allocated to docetaxel. By Sept 30, 2015,
+  521 patients had died. In the total population, median overall survival was
+  10{\textperiodcentered}4 months with pembrolizumab 2 mg/kg,
+  12{\textperiodcentered}7 months with pembrolizumab 10 mg/kg, and
+  8{\textperiodcentered}5 months with docetaxel. Overall survival was
+  significantly longer for pembrolizumab 2 mg/kg versus docetaxel (hazard ratio
+  [HR] 0{\textperiodcentered}71, 95{\%} CI
+  0{\textperiodcentered}58-0{\textperiodcentered}88;
+  p=0{\textperiodcentered}0008) and for pembrolizumab 10 mg/kg versus docetaxel
+  (0{\textperiodcentered}61, 0{\textperiodcentered}49-0{\textperiodcentered}75;
+  p{\textless}0{\textperiodcentered}0001). Median progression-free survival was
+  3{\textperiodcentered}9 months with pembrolizumab 2 mg/kg,
+  4{\textperiodcentered}0 months with pembrolizumab 10 mg/kg, and
+  4{\textperiodcentered}0 months with docetaxel, with no significant difference
+  for pembrolizumab 2 mg/kg versus docetaxel (0{\textperiodcentered}88,
+  0{\textperiodcentered}74-1{\textperiodcentered}05;
+  p=0{\textperiodcentered}07) or for pembrolizumab 10 mg/kg versus docetaxel
+  (HR 0{\textperiodcentered}79, 95{\%} CI
+  0{\textperiodcentered}66-0{\textperiodcentered}94;
+  p=0{\textperiodcentered}004). Among patients with at least 50{\%} of tumour
+  cells expressing PD-L1, overall survival was significantly longer with
+  pembrolizumab 2 mg/kg than with docetaxel (median 14{\textperiodcentered}9
+  months vs 8{\textperiodcentered}2 months; HR 0{\textperiodcentered}54, 95{\%}
+  CI 0{\textperiodcentered}38-0{\textperiodcentered}77;
+  p=0{\textperiodcentered}0002) and with pembrolizumab 10 mg/kg than with
+  docetaxel (17{\textperiodcentered}3 months vs 8{\textperiodcentered}2 months;
+  0{\textperiodcentered}50, 0{\textperiodcentered}36-0{\textperiodcentered}70;
+  p{\textless}0{\textperiodcentered}0001). Likewise, for this patient
+  population, progression-free survival was significantly longer with
+  pembrolizumab 2 mg/kg than with docetaxel (median 5{\textperiodcentered}0
+  months vs 4{\textperiodcentered}1 months; HR 0{\textperiodcentered}59, 95{\%}
+  CI 0{\textperiodcentered}44-0{\textperiodcentered}78;
+  p=0{\textperiodcentered}0001) and with pembrolizumab 10 mg/kg than with
+  docetaxel (5{\textperiodcentered}2 months vs 4{\textperiodcentered}1 months;
+  0{\textperiodcentered}59, 0{\textperiodcentered}45-0{\textperiodcentered}78;
+  p{\textless}0{\textperiodcentered}0001). Grade 3-5 treatment-related adverse
+  events were less common with pembrolizumab than with docetaxel (43 [13{\%}]
+  of 339 patients given 2 mg/kg, 55 [16{\%}] of 343 given 10 mg/kg, and 109
+  [35{\%}] of 309 given docetaxel). Interpretation Pembrolizumab prolongs
+  overall survival and has a favourable benefit-to-risk profile in patients
+  with previously treated, PD-L1-positive, advanced non-small-cell lung cancer.
+  These data establish pembrolizumab as a new treatment option for this
+  population and validate the use of PD-L1 selection.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0140-6736(15)01281-7
+    \endverb
+    \field{isbn}{0140-6736}
+    \field{issn}{1474547X}
+    \field{number}{10027}
+    \field{pages}{1540\bibrangedash 1550}
+    \field{title}{{Pembrolizumab versus docetaxel for previously treated,
+  PD-L1-positive, advanced non-small-cell lung cancer (KEYNOTE-010): A
+  randomised controlled trial}}
+    \field{volume}{387}
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/1-s2.
+    \verb 0-S0140673615012817-main.pdf:pdf
+    \endverb
+    \field{journaltitle}{The Lancet}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Konopleva2015}{article}{}
+    \name{author}{28}{}{%
+      {{hash=KM}{%
+         family={Konopleva},
+         familyi={K\bibinitperiod},
+         given={Marina},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TPF}{%
+         family={Thall},
+         familyi={T\bibinitperiod},
+         given={Peter\bibnamedelima F.},
+         giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=YCA}{%
+         family={Yi},
+         familyi={Y\bibinitperiod},
+         given={Cecilia\bibnamedelima Arana},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Borthakur},
+         familyi={B\bibinitperiod},
+         given={Gautam},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Coveler},
+         familyi={C\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BRC}{%
+         family={Bueso-Ramos},
+         familyi={B\bibinitperiod-R\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Benito},
+         familyi={B\bibinitperiod},
+         given={Juliana},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Konoplev},
+         familyi={K\bibinitperiod},
+         given={Sergej},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GY}{%
+         family={Gu},
+         familyi={G\bibinitperiod},
+         given={Yongchuan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=RF}{%
+         family={Ravandi},
+         familyi={R\bibinitperiod},
+         given={Farhad},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=JE}{%
+         family={Jabbour},
+         familyi={J\bibinitperiod},
+         given={Elias},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Faderl},
+         familyi={F\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Deborah},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cortes},
+         familyi={C\bibinitperiod},
+         given={Jorge},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kadia},
+         familyi={K\bibinitperiod},
+         given={Tapan},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kornblau},
+         familyi={K\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DN}{%
+         family={Daver},
+         familyi={D\bibinitperiod},
+         given={Naval},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Pemmaraju},
+         familyi={P\bibinitperiod},
+         given={Naveen},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=NHQ}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Hoang\bibnamedelima Q.},
+         giveni={H\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Feliu},
+         familyi={F\bibinitperiod},
+         given={Jennie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Hongbo},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Caimiao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WWR}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={William\bibnamedelima R.},
+         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MTJ}{%
+         family={Melink},
+         familyi={M\bibinitperiod},
+         given={Teresa\bibnamedelima J.},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GJC}{%
+         family={Gutheil},
+         familyi={G\bibinitperiod},
+         given={John\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Andreeff},
+         familyi={A\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=EEH}{%
+         family={Estey},
+         familyi={E\bibinitperiod},
+         given={Elihu\bibnamedelima H.},
+         giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kantarjian},
+         familyi={K\bibinitperiod},
+         given={Hagop},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KM+1}
+  \strng{fullhash}{KMTPFYCABGCABRCBJKSGYRFJEFSTDCJKTKSDNPNNHQFJLHWCWWRMTJGJCAMEEHKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    We previously demonstrated vast expansion of hypoxic areas in the leukemic
+  microenvironment and provided rationale for using hypoxia-activated prodrugs.
+  PR104 is a phosphate ester that is rapidly hydrolyzed in vivo to the
+  corresponding alcohol PR-104A and further reduced to the amine and
+  hydroxyl-amine nitrogen mustards that induce DNA cross-linking in hypoxic
+  cells under low oxygen concentrations. In this phase I/II study, patients
+  with relapsed/refractory acute myeloid leukemia (n=40) after 1 or 2 prior
+  treatments or acute lymphoblastic leukemia (n=10) after any number of prior
+  treatments received PR104, dose ranges of 1.1 to 4 g/m2. The most common
+  treatment-related grade 3/4 adverse events were myelosuppression (anemia
+  62{\%}, neutropenia 50{\%}, thrombocytopenia 46{\%}), febrile neutropenia
+  (40{\%}), infection (24{\%}), and enterocolitis (14{\%}). Ten of 31 patients
+  with acute myeloid leukemia (32{\%}) and 2 of 10 patients with acute
+  lymphoblastic leukemia (20{\%}) who received 3 g/m2 or 4 g/m2 had a response
+  (complete response, n=1; complete response without platelet recovery, n=5;
+  morphologic leukemia-free state, n=6). The extent of hypoxia was evaluated by
+  the hypoxia tracer pimonidazole administered prior to a bone marrow biopsy
+  and by immunohistochemical assessments of hypoxia-inducible factor alpha and
+  carbonic anhydrase IX. A high fraction of leukemic cells expressed these
+  markers, and PR104 administration resulted in measurable decrease of the
+  proportions of hypoxic cells. These findings indicate that hypoxia is a
+  prevalent feature of the leukemic microenvironment and that targeting hypoxia
+  with hypoxia-activated prodrugs warrants further evaluation in acute
+  leukemia. The trial is registered at ClinicalTrials.gov as NCT 01037556.%
+    }
+    \verb{doi}
+    \verb 10.3324/haematol.2014.118455
+    \endverb
+    \field{isbn}{1592-8721 (Electronic)$\backslash$r0390-6078 (Linking)}
+    \field{issn}{15928721}
+    \field{number}{7}
+    \field{pages}{927\bibrangedash 934}
+    \field{title}{{Phase I/II study of the hypoxia-activated prodrug PR104 in
+  refractory/relapsed acute myeloid leukemia and acute lymphoblastic leukemia}}
+    \field{volume}{100}
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/Konop
+    \verb leva et al. - 2015 - Phase III study of the hypoxia-activated prodrug
+    \verb  PR104 in refractoryrelapsed acute myeloid leukemia and acute.pdf:pdf
+    \endverb
+    \field{journaltitle}{Haematologica}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Schiller2002}{article}{}
+    \name{author}{8}{}{%
+      {{hash=SJH}{%
+         family={Schiller},
+         familyi={S\bibinitperiod},
+         given={Joan\bibnamedelima H},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Harrington},
+         familyi={H\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BCP}{%
+         family={Belani},
+         familyi={B\bibinitperiod},
+         given={Chandra\bibnamedelima P},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Langer},
+         familyi={L\bibinitperiod},
+         given={Corey},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sandler},
+         familyi={S\bibinitperiod},
+         given={Alan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Krook},
+         familyi={K\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Junming},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JDH}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={David\bibnamedelima H},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{80 and over,Adult,Aged,Aged, 80 and over,Antineoplastic Combined
+  Chemotherapy Protocols,Antineoplastic Combined Chemotherapy Protocols:
+  ad,Antineoplastic Combined Chemotherapy Protocols: th,Carcinoma,
+  Non-Small-Cell Lung,Carcinoma, Non-Small-Cell Lung: drug therapy,Carcinoma,
+  Non-Small-Cell Lung: mortality,Chemo,Cisplatin,Cisplatin: administration {\&}
+  dosage,Deoxycytidine,Deoxycytidine: administration {\&} dosage,Deoxycytidine:
+  analogs {\&} derivatives,Disease-Free Survival,Female,Humans,Lung
+  Neoplasms,Lung Neoplasms: drug therapy,Lung Neoplasms: mortality,Male,Middle
+  Aged,NSCLC,Non-Small-Cell Lung,Non-Small-Cell Lung: drug
+  therapy,Non-Small-Cell Lung: mortality,Paclitaxel,Paclitaxel: administration
+  {\&} dosage,Paclitaxel: analogs {\&} derivatives,Survival Analysis,Taxoids}
+    \strng{namehash}{SJH+1}
+    \strng{fullhash}{SJHHDBCPLCSAKJZJJDH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    BACKGROUND: We conducted a randomized study to determine whether any of
+  three chemotherapy regimens was superior to cisplatin and paclitaxel in
+  patients with advanced non-small-cell lung
+  cancer.$\backslash$n$\backslash$nMETHODS: A total of 1207 patients with
+  advanced non-small-cell lung cancer were randomly assigned to a reference
+  regimen of cisplatin and paclitaxel or to one of three experimental regimens:
+  cisplatin and gemcitabine, cisplatin and docetaxel, or carboplatin and
+  paclitaxel.$\backslash$n$\backslash$nRESULTS: The response rate for all 1155
+  eligible patients was 19 percent, with a median survival of 7.9 months (95
+  percent confidence interval, 7.3 to 8.5), a 1-year survival rate of 33
+  percent (95 percent confidence interval, 30 to 36 percent), and a 2-year
+  survival rate of 11 percent (95 percent confidence interval, 8 to 12
+  percent). The response rate and survival did not differ significantly between
+  patients assigned to receive cisplatin and paclitaxel and those assigned to
+  receive any of the three experimental regimens. Treatment with cisplatin and
+  gemcitabine was associated with a significantly longer time to the
+  progression of disease than was treatment with cisplatin and paclitaxel but
+  was more likely to cause grade 3, 4, or 5 renal toxicity (in 9 percent of
+  patients, vs. 3 percent of those treated with cisplatin plus paclitaxel).
+  Patients with a performance status of 2 had a significantly lower rate of
+  survival than did those with a performance status of 0 or
+  1.$\backslash$n$\backslash$nCONCLUSIONS: None of four chemotherapy regimens
+  offered a significant advantage over the others in the treatment of advanced
+  non-small-cell lung cancer.%
+    }
+    \verb{doi}
+    \verb 10.1056/NEJMoa011954
+    \endverb
+    \field{isbn}{1533-4406 LA - eng}
+    \field{issn}{1533-4406}
+    \field{number}{2}
+    \field{pages}{92\bibrangedash 8}
+    \field{title}{{Comparison of four chemotherapy regimens for advanced
+  non-small-cell lung cancer.}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/11784875
+    \endverb
+    \field{volume}{346}
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/Schil
+    \verb ler et al. - 2002 - Comparison of four chemotherapy regimens for adva
+    \verb nced non-small-cell lung cancer.pdf:pdf
+    \endverb
+    \field{journaltitle}{The New England journal of medicine}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Thall2008}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TPF}{%
+         family={Thall},
+         familyi={T\bibinitperiod},
+         given={Peter\bibnamedelima F.},
+         giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=NHQ}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Hoang\bibnamedelima Q.},
+         giveni={H\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=EEH}{%
+         family={Estey},
+         familyi={E\bibinitperiod},
+         given={Elihu\bibnamedelima H.},
+         giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Adaptive design,Bayesian design,Biologic agents,Individualized
+  treatment,Phase I clinical trial,Phase I/II clinical trial}
+    \strng{namehash}{TPFNHQEEH1}
+    \strng{fullhash}{TPFNHQEEH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    SUMMARY: A Bayesian sequential dose-finding procedure based on bivariate
+  (efficacy, toxicity) outcomes that accounts for patient covariates and
+  dose-covariate interactions is presented. Historical data are used to obtain
+  an informative prior on covariate main effects, with uninformative priors
+  assumed for all dose effect parameters. Elicited limits on the probabilities
+  of efficacy and toxicity for each of a representative set of covariate
+  vectors are used to construct bounding functions that determine the
+  acceptability of each dose for each patient. Elicited outcome probability
+  pairs that are equally desirable for a reference patient are used to define
+  two different posterior criteria, either of which may be used to select an
+  optimal covariate-specific dose for each patient. Because the dose selection
+  criteria are covariate specific, different patients may receive different
+  doses at the same point in the trial, and the set of eligible patients may
+  change adaptively during the trial. The method is illustrated by a
+  dose-finding trial in acute leukemia, including a simulation study.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1541-0420.2008.01009.x
+    \endverb
+    \field{isbn}{0006-341X}
+    \field{issn}{0006341X}
+    \field{number}{4}
+    \field{pages}{1126\bibrangedash 1136}
+    \field{title}{{Patient-specific dose finding based on bivariate outcomes
+  and covariates}}
+    \field{volume}{64}
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/Thall
+    \verb , Nguyen, Estey - 2008 - Patient-specific dose finding based on bivar
+    \verb iate outcomes and covariates.pdf:pdf
+    \endverb
+    \field{journaltitle}{Biometrics}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Thall2004}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TP}{%
+         family={Thall},
+         familyi={T\bibinitperiod},
+         given={PF},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cook},
+         familyi={C\bibinitperiod},
+         given={JD},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{DoseFinding,EfficacyToxicity,adaptive design,bayesian design,biologic
+  agents,dose-finding,phase i clinical trial,phase ii}
+    \strng{namehash}{TPCJ1}
+    \strng{fullhash}{TPCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{3}
+    \field{pages}{684\bibrangedash 693}
+    \field{title}{{Dose-Finding Based on Efficacy-Toxicity Trade-Offs}}
+    \field{volume}{60}
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/Thall
+    \verb , Cook - 2004 - Dose-Finding Based on Efficacy-Toxicity Trade-Offs.pd
+    \verb f:pdf
+    \endverb
+    \field{journaltitle}{Biometrics}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Zhang2006}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ZW}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SDJ}{%
+         family={Sargent},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mandrekar},
+         familyi={M\bibinitperiod},
+         given={Sumithra},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Bayesian method,CRM,Continual reassessment method,Continuation-ratio
+  model,DoseFinding,EfficacyToxicity,Phase I trail,Proportional odds
+  model,Trinomial}
+    \strng{namehash}{ZWSDJMS1}
+    \strng{fullhash}{ZWSDJMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    Novel therapies are challenging the standards of drug development. Agents
+  with specific biologic targets and limited toxicity require novel designs to
+  determine doses to be taken forward into larger studies. In this paper, we
+  describe an approach that incorporates both toxicity and efficacy data into
+  the estimation of the biologically optimal dose of an agent in a phase I
+  trial. The approach is based on the flexible continuation-ratio model, and
+  uses straightforward optimal dose selection criteria. Dose selection is based
+  on all patients treated up until that time point, using a continual
+  reassessment method approach. Dose-outcome curves considered include
+  monotonically increasing, monotonically decreasing, and unimodal curves. Our
+  simulation studies demonstrate that the proposed design, which we call
+  TriCRM, has favourable operating characteristics.%
+    }
+    \verb{doi}
+    \verb 10.1002/sim.2325
+    \endverb
+    \field{issn}{02776715}
+    \field{number}{14}
+    \field{pages}{2365\bibrangedash 2383}
+    \field{title}{{An adaptive dose-finding design incorporating both toxicity
+  and efficacy}}
+    \field{volume}{25}
+    \verb{file}
+    \verb :/can-share-01/CRCTU-Statistic{\$}/home/BrockK/Mendeley Desktop/Zhang
+    \verb , Sargent, Mandrekar - 2006 - An adaptive dose-finding design incorpo
+    \verb rating both toxicity and efficacy.pdf:pdf
+    \endverb
+    \field{journaltitle}{Statistics in Medicine}
+    \field{year}{2006}
+  \endentry
+\endsortlist
+\endinput
